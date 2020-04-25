@@ -13,6 +13,7 @@ import NVActivityIndicatorView
 class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
+    private var selectedVideoIndex = -1
     var activityIndicator : NVActivityIndicatorView!
     var videos = [VideoData]() {
         didSet {
@@ -38,7 +39,7 @@ class ViewController: UIViewController {
             if token.count > 0 && error == nil {
                 TwitchTokenManager.shared.accessToken = token
                 self.fetchVideos()
-            }
+                }
             }
         })
     }
@@ -68,10 +69,19 @@ class ViewController: UIViewController {
             }
         })
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "playvideo" {
+            let videoController = segue.destination as! VideoPlayerController
+            videoController.videos = self.videos
+            videoController.currentVideoIndex = self.selectedVideoIndex
+        }
+    }
+    
 }
 
 
-extension ViewController: UITableViewDataSource {
+extension ViewController: UITableViewDataSource, UITableViewDelegate {
     /// Retrieves the number of cells to display; this is equal to the number of videos we have.
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return videos.count
@@ -79,8 +89,8 @@ extension ViewController: UITableViewDataSource {
     
     /// Whenever the cell is selected, open the Twitch URL to that video
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let videoData = videos[indexPath.row]
-        UIApplication.shared.openURL(videoData.url)
+        self.selectedVideoIndex = indexPath.row
+        self.performSegue(withIdentifier: "playvideo", sender: nil)
     }
     
     /// Retrieve a TwitchVideoTableViewCell with the reuse identifier "twitchyCell". Its video data

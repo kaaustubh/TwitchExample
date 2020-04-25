@@ -7,124 +7,132 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0152FB3F1AC670BA692C0FFD00915844 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B0305FECEAB88010792CBC6A219026 /* VideoData.swift */; };
+		0200AE5FD454F1677F1366012D3EB97F /* GetUsersFollowsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBADA8EDF79F5524DEB7CAC67866C69 /* GetUsersFollowsData.swift */; };
 		0282D250A594A9FC15ECE9F6D9E951B3 /* Pods-TwitchExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05128D1BBBA33B01B7C8CBE6C9A5BA60 /* Pods-TwitchExampleTests-dummy.m */; };
-		02B6FC77E62F9E8E89BDF0B99E6F7912 /* MarshalDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46798CCF33C9ABF3F2728013B9DBDDA /* MarshalDictionary.swift */; };
-		04E424E336F98A6ABDB66F61A89268C8 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725A5FDAEB3AB4A5592A33EA92FCE9E4 /* NVActivityIndicatorAnimationPacman.swift */; };
-		054BBDA800CD535DAE0D62A033B8D572 /* GetVideosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB5DFA875C47AF099A8745E03DD035B /* GetVideosData.swift */; };
-		0743C949BA7F4C7F5D2C24DA2CFA4F48 /* GetBitsLeaderboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0386A75E1F115E63EE5EBAA4C2C82C9B /* GetBitsLeaderboardData.swift */; };
-		08AB9D415A7437DF5F8EE0786429887F /* UnmarshalUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F0A2138AD4366CB0F0BC204CA5515E /* UnmarshalUpdating.swift */; };
-		0FE7A4E809CDA66875EB556B8FD86D61 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71501ECF5DF219D8486A3E7A1846678A /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
-		11E275ADC60E7F64262AEB4004BBEED5 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362CB814EAA9A7726A4671871AFAEF86 /* NVActivityIndicatorAnimationBallScale.swift */; };
-		16AB2B1AE8305FB3497B3C9C40D98366 /* MarshaledObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD7B27684B620E93E01EBD969D404EF /* MarshaledObject.swift */; };
-		17D30DCFE1DF513CB68E21DFE739A2A9 /* GetStreamsMetadataData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3CCCB10F08E7EFAF2DA1B8D46B2ECD /* GetStreamsMetadataData.swift */; };
-		18025B1E8219ECDD01F146E3EE1AAEDA /* PaginationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA143A3914B36C6521798352CBB15F3B /* PaginationData.swift */; };
-		1B5EA208D610BA0D72CCEF9ADB0FF622 /* CreateClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FABB3202B91354AED61299E82C3CA6 /* CreateClipData.swift */; };
-		205A23B1ECA6699F1FDCC77B3E1E4684 /* MarkedVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D30417933E460AC19A82054354AA0D1 /* MarkedVideoData.swift */; };
-		20BA3AE1181ADCCC09B237327D73BE6B /* UnpostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138AC952A2DD8FAEA3C08EAE2DCCA04A /* UnpostedStreamMarkerData.swift */; };
-		29550F859C95C6EA47F559109486E5C9 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C25650B8DFFBE3864A4824826E156B /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
-		2FC45E0144243690B3AD50C7E219BA72 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE1EC3F64594C527207A4BDE70F0E0E /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
-		317ABD1CAC7CF7B2D67F89D5651EC424 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD57DF9FEAE6179E4713915060FD8A0 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
-		3231C5CF984A39C6876BA3E6AFFDF880 /* CreateStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F054C61AFE7D3B17C5BCE74017FB14 /* CreateStreamMarkerData.swift */; };
-		335E9E1E769FA71EB6E4AE6CDFF46EDA /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCA32E986312F2B10A15CE4B8F42D4 /* NVActivityIndicatorView.swift */; };
-		3444E54390645110C57B317125F37F87 /* GetGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C6CB28A5D0CFC142A99AA17CEB0EB8 /* GetGamesData.swift */; };
-		36F91AB796D0070C8FFE2214904F037C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
-		37E82C752DA6A69FB6318A72A0D60E57 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3298F39D63FC07C898C1CEB09991966 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
-		3B2D4A849C48A509FA72C5B10B132554 /* HearthstoneMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5DD1229F2F318ACFE138A1BC2D39D6 /* HearthstoneMetadata.swift */; };
-		3C36302798153E85EC01288B70ACA035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
+		02B6FC77E62F9E8E89BDF0B99E6F7912 /* MarshalDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BBA81F450206C413EA5671BF410E2C /* MarshalDictionary.swift */; };
+		04582D80E557E6849D1BBA6D88CDAB81 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8692AD04E77605EBCF13E9C04AC64D /* WebKit.framework */; };
+		04E424E336F98A6ABDB66F61A89268C8 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E04FC91E14ADCE8BA208D2980B1FC9 /* NVActivityIndicatorAnimationPacman.swift */; };
+		08AB9D415A7437DF5F8EE0786429887F /* UnmarshalUpdating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D163417B7DB4198F2CF373C5D4EC8 /* UnmarshalUpdating.swift */; };
+		0BA8CFCF01087FE31E8F8B6B3509EB72 /* OverwatchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A34B45CF707FBF2443C2CC028D828 /* OverwatchMetadata.swift */; };
+		0FE7A4E809CDA66875EB556B8FD86D61 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ADFF65117B7277163AAC14FA9FBCA7 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		11E275ADC60E7F64262AEB4004BBEED5 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43003CCE3E312E5412D0843FA758DDD4 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		16AB2B1AE8305FB3497B3C9C40D98366 /* MarshaledObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D2BFA0F928014877C160D3EB962985 /* MarshaledObject.swift */; };
+		1A91DD09864E7966B783A3126704592D /* DateFormattingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA59256BC0D2DA2177B0DE8FB8DF3CE /* DateFormattingExtensions.swift */; };
+		2172058B1231EB005A484AA9B76A20CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		29550F859C95C6EA47F559109486E5C9 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7672F70201596B174F6F06C4FEBE3C4 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		29EBE2C4B0BBDF47E684173B5CAB200E /* GetExtensionAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4749EAC95AC14719EE2F6E05B56166 /* GetExtensionAnalyticsData.swift */; };
+		2A8A32537B8124BA682C3C9A4B09C856 /* GetVideosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7916980B9E70B1469CB86E9F56A7FC78 /* GetVideosData.swift */; };
+		2D4D513D3639D2DE1C89C3E810843A77 /* UpdateUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2338D1D9B3A81E20E821BCA386090768 /* UpdateUserData.swift */; };
+		2FC45E0144243690B3AD50C7E219BA72 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A195AF8B7E14B1F1C932AB0ABB31D1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		30487CEE92F3383900D2C0870C03E22F /* MarkedStreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C42D9C0B4E23D51F18DF5FAE5CE1E45 /* MarkedStreamData.swift */; };
+		317ABD1CAC7CF7B2D67F89D5651EC424 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC76FB346192790248EBF3D50608F92 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		3224BDE5312B027582553B63CC58B6F9 /* TwitchPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6385660F1735CD75573CB61581C34A64 /* TwitchPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3327F641CAAFD9DF6FB57BD798254D63 /* GetStreamMarkersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490A3BEAA44E5CE5E5FBEF11107B2B2 /* GetStreamMarkersData.swift */; };
+		335E9E1E769FA71EB6E4AE6CDFF46EDA /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03F7A4BBAD62335B85909885B5401E3 /* NVActivityIndicatorView.swift */; };
+		345057AA15EB339C154006286250D46E /* OverwatchHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FFBBACC97F20B54037143BDE58E12 /* OverwatchHeroMetadata.swift */; };
+		36F91AB796D0070C8FFE2214904F037C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		37E82C752DA6A69FB6318A72A0D60E57 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E54975A569372BAD1BA1BDE72B20BF /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		3C36302798153E85EC01288B70ACA035 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
 		3CA5AE43E98630042CD6DD2A8ADE2E57 /* Pods-TwitchExampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BBA504A55142E59AF4B449B0A21DF4 /* Pods-TwitchExampleUITests-dummy.m */; };
-		3CCD1E9E527FD408AD68227B887218AE /* GetUsersFollowsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48228150FC2E47B306E390CEE3E97B3E /* GetUsersFollowsData.swift */; };
-		3D929FBCC643CAA6141FABE9B9A903C8 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D40451222758B941003499DC6C4F0D2 /* NVActivityIndicatorAnimationBallBeat.swift */; };
-		3E9DEA318B1F2D277505306C81BC7D4B /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC009BF61D1234580048606E0800B94 /* NVActivityIndicatorAnimationLineScale.swift */; };
-		4138F251922227BBD848BC7C89B1E74D /* ClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D5AF46FE0C647F9FBC3614F2ADCE6E /* ClipData.swift */; };
-		41BD48CD32FC23803A12109E0137A474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
-		41C28DC0FB47B9C5BCC6C4D7EE61C0A4 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F411E20FFCE8239B9EBD8280A66E82 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
-		4278405D06E9E5C97FA70A641BA3D04D /* Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12073DD8100555A09F841B5C594F104B /* Unmarshaling.swift */; };
-		42B707E3A82CF745AA8D3A9F18414C45 /* SwiftTwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BBBCB3B976DD598D9C3336BC751A676 /* SwiftTwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47998EF27D1E3FBA3FD90AD875CC3841 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD322B3A4062459F7CA4C32714EC3E /* NVActivityIndicatorAnimationBallPulse.swift */; };
-		48DCB512E342B3198B4031801AC586AF /* OverwatchMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7286D8CB28B758E62B8CBACFDAD3B0F8 /* OverwatchMetadata.swift */; };
-		497D0F591E928EF70BC7721E7479031A /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172DC9C14CF16AC730449D095132B73B /* GameData.swift */; };
-		4D221B0FF8314D784F46F882F0DF95DE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD61A81C1443E8766A48B8BC0C9A5EFF /* JSON.swift */; };
-		4D96BA5FE66207149888EB47FE8A6B19 /* UpdateUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1264EE17CAAFA42CA62E8A7F82248B6 /* UpdateUserData.swift */; };
-		4E42F897E24CDBDF8BCFAA5265162E47 /* Marshal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8A574D9CE144ED2DDF8ABFE7F1C3F22 /* Marshal.framework */; };
-		50E3FCD60E40A6D598225FDFF65E95D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3064B09A57F49AA01DF760B97B8C024A /* UIKit.framework */; };
-		528EA8AC319D726EDC7BEA77CE79A60D /* Pods-TwitchExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEAAFAACC502AEE9BA2CA68C7FF5178 /* Pods-TwitchExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		538167B4B86ABAA16CAC3045D5D28B9C /* GetExtensionAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B49AE21F2EB7957E5B29C9CBCAA2E1 /* GetExtensionAnalyticsData.swift */; };
-		587D63DD869685707D68B6AF9D40F343 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FFD62A174872EEED4A792A40A5189F /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
-		5885017621D582C3B9483144E287A4D5 /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57C3DB8FFC8E27E538139595E56D4F7 /* KeyType.swift */; };
-		5A2791FD849C783EDBBDBA3D7F6428CB /* CreateClipInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C6D32935351872596BBAB1CE0FA92F /* CreateClipInfoData.swift */; };
-		5AFC651EC05CD037E6203C3D31D01F6E /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801FA8402C9ABDC236933D27BC635280 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
-		5B4F4D56DF43CB0E7BBF3E8811B8B507 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84730621890CA7A6A96CD565F364CDF0 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
-		5C059199D64B855F7F698A59A06624A1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B460112F8B3AA9CBA7F723B3DC637B0 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
-		5E54C32CE44610FF3DD20F1B87854E2A /* GetStreamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA35C87F6486D9FD89999127BEC78 /* GetStreamsData.swift */; };
-		5E823DD5E076E6B1974B9615D086A08C /* UserFollowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB620CE96C9B602B28D72ABBD8CB5CB /* UserFollowData.swift */; };
-		5E8A506B5DFB08C4798A28024079CFCF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A8B5919F73EDEC4B9C558A164FD955 /* Operators.swift */; };
-		63B98022887136C76D5DBCDF117354D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
-		64A38D82EFF8E666A889B962638A568E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5318FF7731FD4A5BDFAE8299DD9F0755 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
-		64A4133B8E9ADA8A0C325746926E4081 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BFA1A10899BBDD7BE2AEFA1ADABF88 /* NVActivityIndicatorAnimationBlank.swift */; };
-		64FAF2B530E2FE84772B1AAE7DA28414 /* HearthstoneHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB268856BED783BA299841268B8DFE6 /* HearthstoneHeroMetadata.swift */; };
-		66F8667FF4F7DE87C9564F30F7949FFB /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A1B9EE6375F83003D0CD75C701344D /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
-		6897E354FDCDA1C1DFB5914CB28C2A43 /* GetUsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CA7E61712A2FD1D1B79BEA49876F3F /* GetUsersData.swift */; };
-		6F5C957B3D816A44D829AB8B8C5F9E6D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B112F9570327288D5C85F08DBC335F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
-		70CD1A988F498A78C80D5DA669953B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
-		74B63F61F794A351591B84D05630E88A /* Marshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361715CA372416ABABA95D48C901BA8 /* Marshaling.swift */; };
-		750450133C747EC7026F44EA97B379AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B6C991148B6B9866CAB13CB29E257 /* QuartzCore.framework */; };
-		7603800551B7D672997729CDAD694008 /* GameAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C6ADB318B549EA2ABD9111A83C96A /* GameAnalyticsReportData.swift */; };
-		7A07998547B39293FA6FF0CDC55B4490 /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BEF59E99D14FBBD3E4F9C7E59D09D /* DictionaryExtensions.swift */; };
-		7E0A74D98089CDD6912C7CE32CB79B52 /* PostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920B15AD8DCD9C740A798E083F11D436 /* PostedStreamMarkerData.swift */; };
-		80C6F9C05BD95669578D0BF1A5DCAEB8 /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB21F68340760A1F31809D1DB311A74 /* Twitch.swift */; };
-		81665C0F6C0727D5BAD2D4C4F31C47C1 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A7783606FCA8BB501E63165D53E968 /* Migration.swift */; };
-		850AAC2FCE6EFA4F1BA52607B289017B /* Marshal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 351DE0AFB9EE2DB700F2D2B392BC5362 /* Marshal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8971C5AF5F15083B4DEEEAE4BE09396F /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492849C9C2866DA75B767A6721BA623 /* NVActivityIndicatorAnimationOrbit.swift */; };
-		8B16CB7DC61EA5F2ABEBF0D674993AFD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AECF5D10FA5E01FF23BA99B8E621DE /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
-		8D1B16A3B31E95ED3CA104DC5CAB49BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */; };
-		8D886D7C853F00079EC9E24031A734E2 /* GetClipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240686A67BD581AF8CED5A85700E9F1A /* GetClipsData.swift */; };
-		95F0FC75CA582C8752A32DE70CFE12DC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E0C46F4DAE0C2CF77BD3FC4018E402 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
-		9890E8C3A3536C1EA848BEBA25050ACB /* Marshal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7002B92CF92C95FFBD84F538AC479C08 /* Marshal-dummy.m */; };
-		9C953C78DBFF08AF85C419323010CBB3 /* DataParsingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BB5E15DC7B9F63A90A4B911A2C8D2 /* DataParsingExtensions.swift */; };
-		A16DB1842C678C9AC6066AAA1A0198AC /* OverwatchHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710FE4C136AA03C8FB5D8A241D363CAE /* OverwatchHeroMetadata.swift */; };
-		A36043793288DEB7451237C40E5D821C /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3E043DBE3A181F06998B6938D1C454 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7E3C3CF4C74EB089888658F7E79B087 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2FA6F274520A08C172CB1D6F5C00D0 /* NVActivityIndicatorAnimationDelegate.swift */; };
-		A87885766919FDA0935E672D803EB932 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871471834FB9C400DA726E5FF72DDE46 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
-		A912BD7DBD3DB5064DAFBC1C3158C70C /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CED88B1DBB62E1BD7B0E4122E525608 /* URLExtension.swift */; };
-		A9480C68C2BA9E461D675B83BB397B2B /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7F676D6152AA0DB73E218B3600D546 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
-		ACDD21F39E78CBBC5F4E05FE75BADF8D /* MarkedStreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBAE38FFAD5A476E3D7E96BC06F9310 /* MarkedStreamData.swift */; };
-		AEE8C9E1C425BF8B6EF135F0E762A453 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DA24013E3E432B68D4192260B3B5D4 /* NVActivityIndicatorView-dummy.m */; };
+		3D929FBCC643CAA6141FABE9B9A903C8 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80C76B6F81189400E82A3A25D8D1EC2 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		3E9DEA318B1F2D277505306C81BC7D4B /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD67DFB8F3CA3D5FD305AA831A0624D /* NVActivityIndicatorAnimationLineScale.swift */; };
+		41C28DC0FB47B9C5BCC6C4D7EE61C0A4 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80670C322354CC8BBB38ACC192610373 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		4278405D06E9E5C97FA70A641BA3D04D /* Unmarshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD69C15F44272843410FC5A7A4CE591 /* Unmarshaling.swift */; };
+		47998EF27D1E3FBA3FD90AD875CC3841 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5FCB5A9068FB2796A8F15F44029F2 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		4CAB9856362F6245F4EA4F27E0B46BA4 /* WebPlayerKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1E9B56546C7E4A644D005599D2643E /* WebPlayerKeys.swift */; };
+		4CDAE04A951DFC07E02E0D79D4C4EBB6 /* GameAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64117EB03D033B55C260887B292D09B7 /* GameAnalyticsReportData.swift */; };
+		4D221B0FF8314D784F46F882F0DF95DE /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BCC3C8868C5B3A7A9AEA5C9E411FEF /* JSON.swift */; };
+		50E3FCD60E40A6D598225FDFF65E95D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350DCA6E7AEF3E664597AA0425A6929C /* UIKit.framework */; };
+		5650AB6292F1FD140DB04266CB5BD80C /* GetStreamsMetadataData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD110A6B01D702BE81781F5D7F3271 /* GetStreamsMetadataData.swift */; };
+		587D63DD869685707D68B6AF9D40F343 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FCE033A3C8E61EE131291A9E1F930 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		5885017621D582C3B9483144E287A4D5 /* KeyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4F0FFAE1C28AA95E9DF980BCCD62B7 /* KeyType.swift */; };
+		5AFC651EC05CD037E6203C3D31D01F6E /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF14062417775ED8F80A2782BF8989 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		5B4F4D56DF43CB0E7BBF3E8811B8B507 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3126C078EA72F86E1A9B5DFB6124FA2C /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		5C059199D64B855F7F698A59A06624A1 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B12DFA9ADC5149B4D52564505A28B0A /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		5E8A506B5DFB08C4798A28024079CFCF /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A908B73524B15DABBA80BF5EE1E19506 /* Operators.swift */; };
+		60D7F89E8C883370E728CA31489D0F88 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35C89D633C046F90B9C608D61F9A13A /* GameData.swift */; };
+		62F5B63067264529BD03C0427AB34CAA /* TwitchPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4751ECB68071519896D296A78BF0EC4 /* TwitchPlayer-dummy.m */; };
+		64A38D82EFF8E666A889B962638A568E /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B2652EFDA07A17E3F6B443CB76372 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		64A4133B8E9ADA8A0C325746926E4081 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6653F8B125DA39E21311493F06FB9C7E /* NVActivityIndicatorAnimationBlank.swift */; };
+		66DC8FE89ADFDD22F8AD84B1A8E3DE64 /* URLQueryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931DA41F0AD3499A2EBCFA26CBF633D /* URLQueryExtensions.swift */; };
+		66F8667FF4F7DE87C9564F30F7949FFB /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847061AAF0E88A251E9BB37BE0585A73 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		6F5C957B3D816A44D829AB8B8C5F9E6D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF13A0B81AE9682FE962CDB0F9AD7CF8 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		70CD1A988F498A78C80D5DA669953B60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		71A3A9FB7A774BFB2E96D94DFB1601BB /* Pods-TwitchExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEAAFAACC502AEE9BA2CA68C7FF5178 /* Pods-TwitchExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B63F61F794A351591B84D05630E88A /* Marshaling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C201BC10E5AAB4F79378DEC6BB4AE /* Marshaling.swift */; };
+		750450133C747EC7026F44EA97B379AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F384783A2095667842880FEEA78E22 /* QuartzCore.framework */; };
+		79856793149F3E5843DBC36D8D8F3A3F /* TwitchTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32346772CE26B6B929F09453851D8FD /* TwitchTokenManager.swift */; };
+		7BEF311CDE9CEF4056EA28C6BE311144 /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CA6CBA3457D640B7A60B57D2F89AE /* URLRequestExtension.swift */; };
+		7C79CEE1CF1894D899FCC24E5F882E84 /* DataParsingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E89CF6D3FED7EBC47F32C781C81CBD /* DataParsingExtensions.swift */; };
+		7D3584F839BADD69A027EA490BE7FE72 /* StreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88096C8A49059E18F840A6F6A5EA62CC /* StreamData.swift */; };
+		81665C0F6C0727D5BAD2D4C4F31C47C1 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D84EC278793BEB407BC1CD230AA4A32 /* Migration.swift */; };
+		850AAC2FCE6EFA4F1BA52607B289017B /* Marshal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BBF23730CB4EBE736381A9184DD4EC /* Marshal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B86FD02FA68B6575F3CB603401F59C /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739C35466132FF9643D2840661C39F22 /* DictionaryExtensions.swift */; };
+		86D37882063342F33B40E46601432E84 /* GetBitsLeaderboardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8E61BAEC6612F0874BE7D0B61D4AA6 /* GetBitsLeaderboardData.swift */; };
+		88DA586DB130A3F23E9C929F5D1A00B6 /* UserFollowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F93E71119F76C85A23DEFAC6F64E4A4 /* UserFollowData.swift */; };
+		8971C5AF5F15083B4DEEEAE4BE09396F /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B92086D4843200EFC66B68D9C8141 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		8AF40A3178F3F934E528024CF2F192DE /* Pods-TwitchExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161F085A237926C4A89C9DAF8FEFB99 /* Pods-TwitchExample-dummy.m */; };
+		8B16CB7DC61EA5F2ABEBF0D674993AFD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1717FD006FC702C9825102854E735334 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		8BA8B149BC5919709F81E2D76D215796 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F6E520D985AD17DBDAD24B54DD03A7 /* UserData.swift */; };
+		8D1B16A3B31E95ED3CA104DC5CAB49BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		908A813CC4CE0AC6B8D907C5759834F3 /* GetTopGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF84D40BF383FB975B3C5B6CCBD4095 /* GetTopGamesData.swift */; };
+		91B829CEFF1B94E5BE9216C2362816C0 /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FA561FAF4F44BB124DA65C52F13178 /* VideoData.swift */; };
+		922BB89D1E3CDCB35A2179A722D93EC8 /* HearthstonePlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929E5FDAD0CFC15605FFEC458DD3985 /* HearthstonePlayerMetadata.swift */; };
+		95248A84FD952765B395E01490A1D647 /* CreateClipInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC2B9B97CC22E1B0DE573CCA790DD25 /* CreateClipInfoData.swift */; };
+		95F0FC75CA582C8752A32DE70CFE12DC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F5D146350AF7527F13DFFA274D5642 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		97306FEF88D28CEC0E277C9E8D263EB6 /* SwiftTwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 715EF8DC16CB5D380C6B191EBD815166 /* SwiftTwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9890E8C3A3536C1EA848BEBA25050ACB /* Marshal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE90CE81A1615F954D44C432D980D78 /* Marshal-dummy.m */; };
+		9F7CB9FA751287D2D154973D18E8F939 /* GetGameAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8597CE99688F508EFAC3289899C8EF5 /* GetGameAnalyticsData.swift */; };
+		A36043793288DEB7451237C40E5D821C /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC9FBADD50C19556AB5D565F4E7E98D /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E3C3CF4C74EB089888658F7E79B087 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E670F1CCBAC89F756330BD27CC6235B /* NVActivityIndicatorAnimationDelegate.swift */; };
+		A87885766919FDA0935E672D803EB932 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25EC449938853D3891E3F4C6A8ABC9F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		A9480C68C2BA9E461D675B83BB397B2B /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C13FBD8CA085143078325650BDA1AB /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		AA9F8BE39E2A4460711991C1CBC21E96 /* GetClipsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C68EAAC8D7AD17D4AC8BD43CBAA09AB /* GetClipsData.swift */; };
+		AB24751A14F565A846C2AC18BAF8C52E /* GetUsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B22341ACA57943A288E8474AF0FCF4 /* GetUsersData.swift */; };
+		ADE78311AB2AB386DB0110AD755B4C96 /* SwiftTwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7B9CA835D3FDFF3A74F9F4993A235C /* SwiftTwitch-dummy.m */; };
+		AEE8C9E1C425BF8B6EF135F0E762A453 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3DED916A61F99B9749D348D6C307F /* NVActivityIndicatorView-dummy.m */; };
 		AFEE4447CC11AEE3679A7C318CA8F4F4 /* Pods-TwitchExampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87A6781A86CF460C27A533C4983739A7 /* Pods-TwitchExampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B29E16A494F6723C95A0CAF864E1C483 /* DateFormattingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98B0EA6C2A5515C3050CBAEBF5FEDE1 /* DateFormattingExtensions.swift */; };
-		B3262A5193572FD263D3EE6A7F6570FC /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB090264A4B48774F44A9C9DC46F385 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
-		B78A39D63A841575FF461BAFA89A9FBD /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB5DEC8D443A0375FFD4AE72C7C1DA3 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
-		B88B180EDF71461227EE80E080408E7A /* GetGameAnalyticsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8876170E68CA2206119D5751A8D63E6 /* GetGameAnalyticsData.swift */; };
-		B8C1400982A9D1BD9ED39596ED3B544E /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969E45F1D0E8588385656DE962FFF6EB /* NVActivityIndicatorPresenter.swift */; };
-		B9D7BE15A63539A771A4ED2722A42629 /* HearthstonePlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049A9D62F64402E9618063DCC5086D8 /* HearthstonePlayerMetadata.swift */; };
-		B9F5289B08742693ECAECA78C9E51153 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10498D53056DBE1C8745B0FEBD7B01DF /* NVActivityIndicatorShape.swift */; };
-		BCCB572359A8711EF1DCA3108BE3F520 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD03F5E2CABE28E04168E13B12B7E5C /* NVActivityIndicatorAnimationCubeTransition.swift */; };
-		BE0091E2D5FCD031CEF025DF82EFFBF4 /* GetUserExtensionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC15016FA56F32AE09A58329451A20 /* GetUserExtensionsData.swift */; };
-		BE388007FF334E2A072E594839DAF7ED /* URLRequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00517CC003FB13399BF62C907E3BF183 /* URLRequestExtension.swift */; };
-		BF69DEAC541EE2682734BCF0A417B4A4 /* StreamMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC587F13AB2052C98974541B82B47279 /* StreamMetadata.swift */; };
-		C17C708441D8A817CCABF788DACEABC5 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89CC94C15E51AEAE0204B0AC510BBA3 /* NVActivityIndicatorViewable.swift */; };
-		CB39A860D156698062F001D0B095F51F /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE644B13BB8BFED652B61689AF7DA0B6 /* NVActivityIndicatorAnimationBallRotate.swift */; };
-		CC70100A19F5B80BAF8CF76969C02FDB /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119089C8D57975291503C8B8526A9C33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
-		CF6CC35E76E5EE8F9A6441AB07E8078C /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC9FB3C79E26AB6DC89EF1A19CC408 /* ValueType.swift */; };
-		D07578D394B055ABCC62D82156BA6BCE /* OverwatchPlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC26DD2E8A9C62DD9614BE1E8D93BB2 /* OverwatchPlayerMetadata.swift */; };
+		B0F9F93DF5BA88756CA18964CB2BECD1 /* ExtensionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C170E50F45B8CB7B75A847C31B2969 /* ExtensionData.swift */; };
+		B2F731B3468ADC1B7D5E686008461FC0 /* GetUserExtensionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84ED2F72084C36908221FE5FC70C413 /* GetUserExtensionsData.swift */; };
+		B3262A5193572FD263D3EE6A7F6570FC /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E075BB004A6D7B1E6DE0500A726DC8 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		B78A39D63A841575FF461BAFA89A9FBD /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE87270EE3860F1E0FDC72343521052 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		B8C1400982A9D1BD9ED39596ED3B544E /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91BBC0B76F9D0A047F863CA110A7689 /* NVActivityIndicatorPresenter.swift */; };
+		B8D392F7825A7FDBC49D12ECEEF63DFA /* HearthstoneMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959509853E0E7DB49A168941AA416040 /* HearthstoneMetadata.swift */; };
+		B8E13331D725B3A1276B358A322A25D3 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338668DB244EB9042E71C05B9DB96689 /* URLExtension.swift */; };
+		B9F5289B08742693ECAECA78C9E51153 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23C0935944383479D5E156186ACAC56 /* NVActivityIndicatorShape.swift */; };
+		B9FC79BC0242D142ACB173B0C947F6D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		BAE7999F662F78D2D44986B857AB4CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */; };
+		BCCB572359A8711EF1DCA3108BE3F520 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673EFAFA9F2A7F99E6E38B09B9DD56A0 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		BEA602B8A5951E0F86116CE76880C5E6 /* TwitchClipPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB80115A528ABC815C3895AD6BD7BAB6 /* TwitchClipPlayer.swift */; };
+		C035E98EA9F7727EF6203E92A52F483A /* StreamMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF0D8CD67F3DCD0C8FAA6C28609AA4F /* StreamMetadata.swift */; };
+		C17C708441D8A817CCABF788DACEABC5 /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700B5964F6A627EF59D0F24C903FDC1C /* NVActivityIndicatorViewable.swift */; };
+		C226F26B58DD932C9F87E207238FF9B6 /* GetBitsLeaderboardUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B0218BC036A4503167156CEDA14D9B /* GetBitsLeaderboardUserData.swift */; };
+		C7BC561944A072DDFB0C48F33651D140 /* GetGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FADE27E76413C2DF8848EC1DCB6ADB /* GetGamesData.swift */; };
+		CB39A860D156698062F001D0B095F51F /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4275B7FBB20572B3F12E4522D8B0EEC1 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		CC70100A19F5B80BAF8CF76969C02FDB /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E94258D54502D767624CB18F496E5B /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		CF6CC35E76E5EE8F9A6441AB07E8078C /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF10A9F84769753B8F4ECE6128314914 /* ValueType.swift */; };
 		D353221C8ED83004F0A45AC12859E058 /* Pods-TwitchExampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 472D39FA9DA2190D15223B201FE765F1 /* Pods-TwitchExampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6D226480D67C28C4FC624DC9183995F /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269FE92273FD2CB43E52C38FB824886 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
-		D95D2623E8A3AEB417A27062A18D4430 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21E99EB26FCD2C73A337186CB0D08E /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
-		DABA411DBA02945F39AAEF30D3FDD473 /* SwiftTwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ED70D1C7DF7B5D1FA6188149DEE9D0 /* SwiftTwitch-dummy.m */; };
-		DD73863A42C8ED445CB1F6B7CBDD2790 /* ExtensionAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D90BF8782A04B29C17C46B9BE6B4398 /* ExtensionAnalyticsReportData.swift */; };
-		DD83910430554AF7088B6AEE12787D3E /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A94C5B3D2AD4B80D77E3024F82D832C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
-		DE84E68AD25B1649E6630486AAA50D19 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D843EC7A92EDE4A1DB5EAF57BB1FEA7 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
-		DEC63C89F5ED6CA083EB6806C04A06C2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0659A3CB31ACD02A88995188E1B4D /* UserData.swift */; };
-		DF24FDCF2489EB55BFFA922C22223F33 /* TwitchTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56591D7503B7B532BC0BBCFA7FA0C51E /* TwitchTokenManager.swift */; };
-		EC17002C2AD5A90B489F8017082D4979 /* Pods-TwitchExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0161F085A237926C4A89C9DAF8FEFB99 /* Pods-TwitchExample-dummy.m */; };
-		EF1018760A1153ABE6BCC993ADD259AB /* GetStreamMarkersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B8125DC946809232127D25FF2EAFF9 /* GetStreamMarkersData.swift */; };
-		F2728F3ECDAF67A15698C37E3BCF593C /* ExtensionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24D350D8966569DB0EC90BC920D1B61 /* ExtensionData.swift */; };
-		F3032F80DA1421C35337F25C88A7D3E7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E3D4808E645F537A4580220852F2F0 /* Error.swift */; };
-		F38DE8C951664C35D5F99C3BF3CD3723 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEF9B18F0400358B8BB76D0224233D /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
-		F7A8C41F62A6AD99BA6C6FC622CF498F /* GetTopGamesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF5D5F34FE6B9A9BBE8526111621CB7 /* GetTopGamesData.swift */; };
-		F9118F7FD1AE0FB5CE1CD06F8BD44475 /* GetBitsLeaderboardUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487A49108B025ACE5B144D24B305C2B2 /* GetBitsLeaderboardUserData.swift */; };
-		F982DD7DFA050A3677D64AF6EFA6E8FB /* UnmarshalingWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6BDF64718F9EB3E1EE0F887B3A04E6 /* UnmarshalingWithContext.swift */; };
-		FD59B408A190F87D3EAEE6D105005ADB /* StreamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67ECBDBD3D902AA6A31AF08AC7B591F2 /* StreamData.swift */; };
+		D4B987FF43B18E70E9BB445A5D1D886D /* GetStreamsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2769E82A15A49F4548D2769751107 /* GetStreamsData.swift */; };
+		D6ABB88FD99056207009B8AF24C9C08A /* PaginationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0E31F5EB9226A45B7296B3813C4B62 /* PaginationData.swift */; };
+		D6D226480D67C28C4FC624DC9183995F /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3C4E19CB6682F91D066D9E642EFAC1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		D71F495A5CCFE99E35334B1A078CE391 /* CreateClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C94CA258EA746DBB2F1C9E66A407E /* CreateClipData.swift */; };
+		D95D2623E8A3AEB417A27062A18D4430 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF5C23BFEDA5052BC60BAF9DBDEDCC7 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		DAC4442866C5B08B2B358656AFC3341E /* TwitchPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E605D685551676BF5AB50B5861B1E6F7 /* TwitchPlayer.swift */; };
+		DD83910430554AF7088B6AEE12787D3E /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA3D4E36F20F2025ABFA3AC8514A87 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		DE84E68AD25B1649E6630486AAA50D19 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFF7381EDFFE099EBA69D61D10EBA4F /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		E305A21D26C4005ED3F39B4CA8BE723C /* Twitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890598E0639E79287E9D7AC65EE3BC45 /* Twitch.swift */; };
+		E569B189D4723AFC9E93E079F41A416B /* PostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1A4640F23F60C0C82F39E8E20AEBD /* PostedStreamMarkerData.swift */; };
+		F025DBD2A603CB15C09050E2E4CC76C1 /* UnpostedStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CF452CA5BC485A3912752E3C47658B /* UnpostedStreamMarkerData.swift */; };
+		F0734C166FD801CF4C977B4FA2D37E2A /* ClipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410017F71B130FB4C55DEABD5D8C2CB2 /* ClipData.swift */; };
+		F3032F80DA1421C35337F25C88A7D3E7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E002F91AC87DBF97323A7212CB5DA1C /* Error.swift */; };
+		F38DE8C951664C35D5F99C3BF3CD3723 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5B4C8C94B60D42EDE574670E6C863 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		F3C726C8F02AC6BC4FF12C87E53214A1 /* HearthstoneHeroMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981B941D63EEADDA2ED0F3C8CCB02B81 /* HearthstoneHeroMetadata.swift */; };
+		F93A40030E447CD3EA4599C83427149E /* OverwatchPlayerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FC9D0F133C156ECC3BA16E0818684B /* OverwatchPlayerMetadata.swift */; };
+		F97898C6F6AE6A55494FD74E634DC262 /* MarkedVideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49DD6B1DC34A132CB11FF8229A0538 /* MarkedVideoData.swift */; };
+		F982DD7DFA050A3677D64AF6EFA6E8FB /* UnmarshalingWithContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC52B560EADD73AC28323501D97B3989 /* UnmarshalingWithContext.swift */; };
+		F9BE84007F7B64636A18FA2DA3CB66C2 /* Marshal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5518AF462108967423F077B1E208F678 /* Marshal.framework */; };
+		F9EF023B0FB942AB4E7F0AE49C34E9F9 /* ExtensionAnalyticsReportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD3564611398611D87DEED41D5F534D /* ExtensionAnalyticsReportData.swift */; };
+		FD2BBDFEC906EB34F1AC5A7962D0A36D /* CreateStreamMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB810A62D735FB7DFF60FEF3543656BF /* CreateStreamMarkerData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,211 +140,239 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 27C85A4AD4B95260F2F98E2843DA3BDD;
+			remoteGlobalIDString = FD90B0166AF1BFC89E4725D58423C4F4;
 			remoteInfo = "Pods-TwitchExample";
 		};
-		2CD539EC2932147B22643CF801A5FADC /* PBXContainerItemProxy */ = {
+		07D19314BBF4BC7776834DB7FA34EB79 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBE2BABDD2574C536D98AC5C29F59AAC;
 			remoteInfo = Marshal;
 		};
-		5521EC9D0DCCF69EAD8B36E67C0F67AD /* PBXContainerItemProxy */ = {
+		6557F41D17652DBF84CA0C1340E06D4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FBE2BABDD2574C536D98AC5C29F59AAC;
 			remoteInfo = Marshal;
 		};
-		BD2CEA6DD62D1EF22AAEB80550EED971 /* PBXContainerItemProxy */ = {
+		A04EE1FFCB609DBF5A209A3D311B003F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2F56A7E4DFE218C0DAD320699DD11F5C;
-			remoteInfo = NVActivityIndicatorView;
+			remoteGlobalIDString = F323EA1EB78681BA6CFD80371D93E115;
+			remoteInfo = TwitchPlayer;
 		};
-		ECE9715EC760FFFD6ABC9011FA1EB0BE /* PBXContainerItemProxy */ = {
+		DC190E91809DFFF16BE4B9577D6E4738 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8366F0081EB4BC09E5F7E0F946AA94D6;
+			remoteGlobalIDString = 7930F2A0B8B1BFEBD47EFB14BBA444AF;
 			remoteInfo = SwiftTwitch;
 		};
 		F78FBDDF604DD1EBC97BBFA42375334E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 27C85A4AD4B95260F2F98E2843DA3BDD;
+			remoteGlobalIDString = FD90B0166AF1BFC89E4725D58423C4F4;
 			remoteInfo = "Pods-TwitchExample";
+		};
+		FBB5B44225D63388036964E393076FFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F56A7E4DFE218C0DAD320699DD11F5C;
+			remoteInfo = NVActivityIndicatorView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		001BEF59E99D14FBBD3E4F9C7E59D09D /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DictionaryExtensions.swift"; sourceTree = "<group>"; };
-		00517CC003FB13399BF62C907E3BF183 /* URLRequestExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLRequestExtension.swift"; sourceTree = "<group>"; };
 		0161F085A237926C4A89C9DAF8FEFB99 /* Pods-TwitchExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitchExample-dummy.m"; sourceTree = "<group>"; };
-		0386A75E1F115E63EE5EBAA4C2C82C9B /* GetBitsLeaderboardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardData.swift; sourceTree = "<group>"; };
+		032C94CA258EA746DBB2F1C9E66A407E /* CreateClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipData.swift; sourceTree = "<group>"; };
 		05128D1BBBA33B01B7C8CBE6C9A5BA60 /* Pods-TwitchExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitchExampleTests-dummy.m"; sourceTree = "<group>"; };
-		0A2FA6F274520A08C172CB1D6F5C00D0 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
-		0B3CCCB10F08E7EFAF2DA1B8D46B2ECD /* GetStreamsMetadataData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsMetadataData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsMetadataData.swift; sourceTree = "<group>"; };
-		0D40451222758B941003499DC6C4F0D2 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
-		10498D53056DBE1C8745B0FEBD7B01DF /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
-		119089C8D57975291503C8B8526A9C33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
-		12073DD8100555A09F841B5C594F104B /* Unmarshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unmarshaling.swift; path = Sources/Unmarshaling.swift; sourceTree = "<group>"; };
-		12B0305FECEAB88010792CBC6A219026 /* VideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoData.swift; path = SwiftTwitch/Classes/Results/Videos/VideoData.swift; sourceTree = "<group>"; };
-		138AC952A2DD8FAEA3C08EAE2DCCA04A /* UnpostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnpostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/UnpostedStreamMarkerData.swift"; sourceTree = "<group>"; };
-		1492849C9C2866DA75B767A6721BA623 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
-		14D26574245BAB755717A7D1A37E231F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16FEF9B18F0400358B8BB76D0224233D /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
-		172DC9C14CF16AC730449D095132B73B /* GameData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = SwiftTwitch/Classes/Results/Games/GameData.swift; sourceTree = "<group>"; };
-		1B85575F478250CA8E9C642B54BF6C15 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
-		1BB620CE96C9B602B28D72ABBD8CB5CB /* UserFollowData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserFollowData.swift; path = SwiftTwitch/Classes/Results/Users/UserFollowData.swift; sourceTree = "<group>"; };
-		1D0C6ADB318B549EA2ABD9111A83C96A /* GameAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/GameAnalyticsReportData.swift; sourceTree = "<group>"; };
+		06D2BFA0F928014877C160D3EB962985 /* MarshaledObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshaledObject.swift; path = Sources/MarshaledObject.swift; sourceTree = "<group>"; };
+		0806CA7D608A988DD4B766138A6CED83 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		0AC76FB346192790248EBF3D50608F92 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		0D04ACD1295A64A9C25020071F8722F6 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		0DF5C23BFEDA5052BC60BAF9DBDEDCC7 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		0E5B92086D4843200EFC66B68D9C8141 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		0EFF7381EDFFE099EBA69D61D10EBA4F /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		0F3C4E19CB6682F91D066D9E642EFAC1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		1717FD006FC702C9825102854E735334 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		1A4749EAC95AC14719EE2F6E05B56166 /* GetExtensionAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetExtensionAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetExtensionAnalyticsData.swift; sourceTree = "<group>"; };
+		1DF0D8CD67F3DCD0C8FAA6C28609AA4F /* StreamMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/StreamMetadata.swift"; sourceTree = "<group>"; };
 		1E84E7244B9C5D2537A144EA06524BA0 /* Pods-TwitchExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitchExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21070347432755B5A321CA7147821E51 /* Marshal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-prefix.pch"; sourceTree = "<group>"; };
-		22C6D32935351872596BBAB1CE0FA92F /* CreateClipInfoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipInfoData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipInfoData.swift; sourceTree = "<group>"; };
-		235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		240686A67BD581AF8CED5A85700E9F1A /* GetClipsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetClipsData.swift; path = SwiftTwitch/Classes/Results/Clips/GetClipsData.swift; sourceTree = "<group>"; };
-		24CB3EC1874F855B866CB51154AFC195 /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Marshal.framework; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25E3D4808E645F537A4580220852F2F0 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
-		2CD03F5E2CABE28E04168E13B12B7E5C /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
-		2DF5D5F34FE6B9A9BBE8526111621CB7 /* GetTopGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetTopGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetTopGamesData.swift; sourceTree = "<group>"; };
-		2EB21F68340760A1F31809D1DB311A74 /* Twitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twitch.swift; path = SwiftTwitch/Classes/Twitch.swift; sourceTree = "<group>"; };
-		2EC009BF61D1234580048606E0800B94 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
-		2FB090264A4B48774F44A9C9DC46F385 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
-		3064B09A57F49AA01DF760B97B8C024A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1ED5B4C8C94B60D42EDE574670E6C863 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		1EF2F15F1C232782FA04891231775479 /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Marshal.framework; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		205EEA484CFAA7703C289739B5FA1B97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2338D1D9B3A81E20E821BCA386090768 /* UpdateUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateUserData.swift; path = SwiftTwitch/Classes/Results/Users/UpdateUserData.swift; sourceTree = "<group>"; };
+		2929E5FDAD0CFC15605FFEC458DD3985 /* HearthstonePlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstonePlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstonePlayerMetadata.swift"; sourceTree = "<group>"; };
+		2C68EAAC8D7AD17D4AC8BD43CBAA09AB /* GetClipsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetClipsData.swift; path = SwiftTwitch/Classes/Results/Clips/GetClipsData.swift; sourceTree = "<group>"; };
+		311A8EA72EF8381C329620BE9A3D91EA /* TwitchPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitchPlayer-prefix.pch"; sourceTree = "<group>"; };
+		311BA67BBC9F8B79D7D9C814C0F5527A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3126C078EA72F86E1A9B5DFB6124FA2C /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
 		32E4D5C81A287DBF2F95CF20C09AC916 /* Pods-TwitchExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3361715CA372416ABABA95D48C901BA8 /* Marshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marshaling.swift; path = Sources/Marshaling.swift; sourceTree = "<group>"; };
-		351DE0AFB9EE2DB700F2D2B392BC5362 /* Marshal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-umbrella.h"; sourceTree = "<group>"; };
-		362CB814EAA9A7726A4671871AFAEF86 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
-		370E4A4249EF92A41314737CA879CCD8 /* SwiftTwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-prefix.pch"; sourceTree = "<group>"; };
-		3B97BF17C55E585FD376829C3FE14888 /* Pods_TwitchExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExample.framework; path = "Pods-TwitchExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		338668DB244EB9042E71C05B9DB96689 /* URLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLExtension.swift"; sourceTree = "<group>"; };
+		350DCA6E7AEF3E664597AA0425A6929C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		37E89CF6D3FED7EBC47F32C781C81CBD /* DataParsingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataParsingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DataParsingExtensions.swift"; sourceTree = "<group>"; };
+		3B8692AD04E77605EBCF13E9C04AC64D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		3BE1BC8421230E22E5D4A80A44F482EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D84EC278793BEB407BC1CD230AA4A32 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/Migration.swift; sourceTree = "<group>"; };
 		3E23AA7F58A81121A215ACCE4F1891E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F93E71119F76C85A23DEFAC6F64E4A4 /* UserFollowData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserFollowData.swift; path = SwiftTwitch/Classes/Results/Users/UserFollowData.swift; sourceTree = "<group>"; };
 		3FA749C979DC9D9DBD0D1103F3B2F554 /* Pods-TwitchExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitchExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FBADA8EDF79F5524DEB7CAC67866C69 /* GetUsersFollowsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersFollowsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersFollowsData.swift; sourceTree = "<group>"; };
+		410017F71B130FB4C55DEABD5D8C2CB2 /* ClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClipData.swift; path = SwiftTwitch/Classes/Results/Clips/ClipData.swift; sourceTree = "<group>"; };
+		4275B7FBB20572B3F12E4522D8B0EEC1 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		43003CCE3E312E5412D0843FA758DDD4 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
 		43EAD9B9F819CCEAC2ECA27B746FF14D /* Pods-TwitchExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		456518E009B612E3AB0736FAE50B3537 /* Pods-TwitchExampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitchExampleUITests.modulemap"; sourceTree = "<group>"; };
-		46E45721D40C756CA3A45FE0B9C5A459 /* Pods_TwitchExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExampleUITests.framework; path = "Pods-TwitchExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		472D39FA9DA2190D15223B201FE765F1 /* Pods-TwitchExampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitchExampleUITests-umbrella.h"; sourceTree = "<group>"; };
-		48228150FC2E47B306E390CEE3E97B3E /* GetUsersFollowsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersFollowsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersFollowsData.swift; sourceTree = "<group>"; };
-		487A49108B025ACE5B144D24B305C2B2 /* GetBitsLeaderboardUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardUserData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardUserData.swift; sourceTree = "<group>"; };
-		4A7F676D6152AA0DB73E218B3600D546 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
-		4B1BA35C87F6486D9FD89999127BEC78 /* GetStreamsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsData.swift; sourceTree = "<group>"; };
-		4BBBCB3B976DD598D9C3336BC751A676 /* SwiftTwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-umbrella.h"; sourceTree = "<group>"; };
-		4D30417933E460AC19A82054354AA0D1 /* MarkedVideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedVideoData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedVideoData.swift"; sourceTree = "<group>"; };
+		47BBF23730CB4EBE736381A9184DD4EC /* Marshal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-umbrella.h"; sourceTree = "<group>"; };
+		4CE87270EE3860F1E0FDC72343521052 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
 		4E5C3E20BE35D1DEAB51009D4EDFE0C8 /* Pods-TwitchExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExample-frameworks.sh"; sourceTree = "<group>"; };
+		4F2CA6CBA3457D640B7A60B57D2F89AE /* URLRequestExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLRequestExtension.swift"; sourceTree = "<group>"; };
+		4F6C5BACCC614DE6091ADC4C7A8AC56E /* Pods_TwitchExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExampleUITests.framework; path = "Pods-TwitchExampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE90CE81A1615F954D44C432D980D78 /* Marshal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marshal-dummy.m"; sourceTree = "<group>"; };
+		4FF84D40BF383FB975B3C5B6CCBD4095 /* GetTopGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetTopGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetTopGamesData.swift; sourceTree = "<group>"; };
 		521C90A00D511D90975B52E5FDC97749 /* Pods-TwitchExampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitchExampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5318FF7731FD4A5BDFAE8299DD9F0755 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		53BBA504A55142E59AF4B449B0A21DF4 /* Pods-TwitchExampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitchExampleUITests-dummy.m"; sourceTree = "<group>"; };
-		56591D7503B7B532BC0BBCFA7FA0C51E /* TwitchTokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitchTokenManager.swift; path = SwiftTwitch/Classes/TwitchTokenManager.swift; sourceTree = "<group>"; };
-		59AECF5D10FA5E01FF23BA99B8E621DE /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
-		5D843EC7A92EDE4A1DB5EAF57BB1FEA7 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
-		5DDCA32E986312F2B10A15CE4B8F42D4 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
-		5DEE13DBF7575F58266A8308E0200B04 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
-		5EB0659A3CB31ACD02A88995188E1B4D /* UserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = SwiftTwitch/Classes/Results/Users/UserData.swift; sourceTree = "<group>"; };
-		66BFA1A10899BBDD7BE2AEFA1ADABF88 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
-		67ECBDBD3D902AA6A31AF08AC7B591F2 /* StreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamData.swift; path = SwiftTwitch/Classes/Results/Streams/StreamData.swift; sourceTree = "<group>"; };
-		6A94C5B3D2AD4B80D77E3024F82D832C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
-		6B460112F8B3AA9CBA7F723B3DC637B0 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
-		6CED88B1DBB62E1BD7B0E4122E525608 /* URLExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLExtension.swift; path = "SwiftTwitch/Classes/Helping Extensions/URLExtension.swift"; sourceTree = "<group>"; };
+		54A195AF8B7E14B1F1C932AB0ABB31D1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		5518AF462108967423F077B1E208F678 /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B12DFA9ADC5149B4D52564505A28B0A /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		61BBA81F450206C413EA5671BF410E2C /* MarshalDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshalDictionary.swift; path = Sources/MarshalDictionary.swift; sourceTree = "<group>"; };
+		61FADE27E76413C2DF8848EC1DCB6ADB /* GetGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetGamesData.swift; sourceTree = "<group>"; };
+		62DD110A6B01D702BE81781F5D7F3271 /* GetStreamsMetadataData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsMetadataData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsMetadataData.swift; sourceTree = "<group>"; };
+		6385660F1735CD75573CB61581C34A64 /* TwitchPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TwitchPlayer-umbrella.h"; sourceTree = "<group>"; };
+		64117EB03D033B55C260887B292D09B7 /* GameAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/GameAnalyticsReportData.swift; sourceTree = "<group>"; };
+		6653F8B125DA39E21311493F06FB9C7E /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		673EFAFA9F2A7F99E6E38B09B9DD56A0 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		6821C2F7D711E92B1795CAD86BD9592D /* TwitchPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TwitchPlayer.framework; path = TwitchPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD67DFB8F3CA3D5FD305AA831A0624D /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		6B4C201BC10E5AAB4F79378DEC6BB4AE /* Marshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Marshaling.swift; path = Sources/Marshaling.swift; sourceTree = "<group>"; };
+		6C42D9C0B4E23D51F18DF5FAE5CE1E45 /* MarkedStreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedStreamData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedStreamData.swift"; sourceTree = "<group>"; };
 		6F7F687F78BFF9CD5CBE19E7292FCCA9 /* Pods-TwitchExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		6FC26DD2E8A9C62DD9614BE1E8D93BB2 /* OverwatchPlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchPlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchPlayerMetadata.swift"; sourceTree = "<group>"; };
-		7002B92CF92C95FFBD84F538AC479C08 /* Marshal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Marshal-dummy.m"; sourceTree = "<group>"; };
-		710FE4C136AA03C8FB5D8A241D363CAE /* OverwatchHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchHeroMetadata.swift"; sourceTree = "<group>"; };
-		71501ECF5DF219D8486A3E7A1846678A /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
-		725A5FDAEB3AB4A5592A33EA92FCE9E4 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
-		7269FE92273FD2CB43E52C38FB824886 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
-		7286D8CB28B758E62B8CBACFDAD3B0F8 /* OverwatchMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchMetadata.swift"; sourceTree = "<group>"; };
-		72CA7E61712A2FD1D1B79BEA49876F3F /* GetUsersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersData.swift; sourceTree = "<group>"; };
-		75246D0FD65B71300B7048F91D35704C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76D5AF46FE0C647F9FBC3614F2ADCE6E /* ClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClipData.swift; path = SwiftTwitch/Classes/Results/Clips/ClipData.swift; sourceTree = "<group>"; };
+		700B5964F6A627EF59D0F24C903FDC1C /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		715EF8DC16CB5D380C6B191EBD815166 /* SwiftTwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-umbrella.h"; sourceTree = "<group>"; };
+		739C35466132FF9643D2840661C39F22 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DictionaryExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DictionaryExtensions.swift"; sourceTree = "<group>"; };
+		75BCC3C8868C5B3A7A9AEA5C9E411FEF /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
+		760FEB75C0A31FE130C66045BA69EE4A /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		778D163417B7DB4198F2CF373C5D4EC8 /* UnmarshalUpdating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalUpdating.swift; path = Sources/UnmarshalUpdating.swift; sourceTree = "<group>"; };
+		78C13FBD8CA085143078325650BDA1AB /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		78E94258D54502D767624CB18F496E5B /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		7916980B9E70B1469CB86E9F56A7FC78 /* GetVideosData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetVideosData.swift; path = SwiftTwitch/Classes/Results/Videos/GetVideosData.swift; sourceTree = "<group>"; };
+		7AFA3D4E36F20F2025ABFA3AC8514A87 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
 		7C69C2D7753CE4D41B0F206F1F3BFEE4 /* Pods-TwitchExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExample-resources.sh"; sourceTree = "<group>"; };
-		7D5DD1229F2F318ACFE138A1BC2D39D6 /* HearthstoneMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneMetadata.swift"; sourceTree = "<group>"; };
-		7EFC9FB3C79E26AB6DC89EF1A19CC408 /* ValueType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueType.swift; path = Sources/ValueType.swift; sourceTree = "<group>"; };
-		7FD57DF9FEAE6179E4713915060FD8A0 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		7E670F1CCBAC89F756330BD27CC6235B /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		7EC2B9B97CC22E1B0DE573CCA790DD25 /* CreateClipInfoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipInfoData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipInfoData.swift; sourceTree = "<group>"; };
 		7FDC551D00B2683A3BFEB65F75EF33BB /* Pods-TwitchExampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitchExampleTests.modulemap"; sourceTree = "<group>"; };
 		7FFC127D72A36424E3E939924639D72F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		801FA8402C9ABDC236933D27BC635280 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
-		8049A9D62F64402E9618063DCC5086D8 /* HearthstonePlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstonePlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstonePlayerMetadata.swift"; sourceTree = "<group>"; };
-		82F14F2D8363279B5FDD1E17CFB03F31 /* Pods_TwitchExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExampleTests.framework; path = "Pods-TwitchExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83B8125DC946809232127D25FF2EAFF9 /* GetStreamMarkersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamMarkersData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamMarkersData.swift; sourceTree = "<group>"; };
-		84730621890CA7A6A96CD565F364CDF0 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
-		871471834FB9C400DA726E5FF72DDE46 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		80670C322354CC8BBB38ACC192610373 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		82E54975A569372BAD1BA1BDE72B20BF /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		844866987EA74A1A719AB8EA67AE119A /* Pods_TwitchExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExample.framework; path = "Pods-TwitchExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847061AAF0E88A251E9BB37BE0585A73 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		84E04FC91E14ADCE8BA208D2980B1FC9 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		85C170E50F45B8CB7B75A847C31B2969 /* ExtensionData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionData.swift; path = SwiftTwitch/Classes/Results/Users/ExtensionData.swift; sourceTree = "<group>"; };
+		85D97C65621E04D7154C69ADABF06027 /* SwiftTwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftTwitch.modulemap; sourceTree = "<group>"; };
 		87A6781A86CF460C27A533C4983739A7 /* Pods-TwitchExampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitchExampleTests-umbrella.h"; sourceTree = "<group>"; };
-		8B112F9570327288D5C85F08DBC335F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
-		8D6BDF64718F9EB3E1EE0F887B3A04E6 /* UnmarshalingWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalingWithContext.swift; path = Sources/UnmarshalingWithContext.swift; sourceTree = "<group>"; };
-		8E3E043DBE3A181F06998B6938D1C454 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		8FD7B27684B620E93E01EBD969D404EF /* MarshaledObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshaledObject.swift; path = Sources/MarshaledObject.swift; sourceTree = "<group>"; };
-		90A0C09EE9222A6798613E147779BCAE /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91ED70D1C7DF7B5D1FA6188149DEE9D0 /* SwiftTwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTwitch-dummy.m"; sourceTree = "<group>"; };
-		920B15AD8DCD9C740A798E083F11D436 /* PostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/PostedStreamMarkerData.swift"; sourceTree = "<group>"; };
-		92F0A2138AD4366CB0F0BC204CA5515E /* UnmarshalUpdating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalUpdating.swift; path = Sources/UnmarshalUpdating.swift; sourceTree = "<group>"; };
+		88096C8A49059E18F840A6F6A5EA62CC /* StreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamData.swift; path = SwiftTwitch/Classes/Results/Streams/StreamData.swift; sourceTree = "<group>"; };
+		890598E0639E79287E9D7AC65EE3BC45 /* Twitch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Twitch.swift; path = SwiftTwitch/Classes/Twitch.swift; sourceTree = "<group>"; };
+		8A9FCE033A3C8E61EE131291A9E1F930 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		8E002F91AC87DBF97323A7212CB5DA1C /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		8FC9FBADD50C19556AB5D565F4E7E98D /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94FFD62A174872EEED4A792A40A5189F /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
-		969E45F1D0E8588385656DE962FFF6EB /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
-		96DA24013E3E432B68D4192260B3B5D4 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		97621007BEDBF5546BE353086D75ADF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98A7783606FCA8BB501E63165D53E968 /* Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Migration.swift; path = Sources/Migration.swift; sourceTree = "<group>"; };
+		9490A3BEAA44E5CE5E5FBEF11107B2B2 /* GetStreamMarkersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamMarkersData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamMarkersData.swift; sourceTree = "<group>"; };
+		94A1A4640F23F60C0C82F39E8E20AEBD /* PostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/PostedStreamMarkerData.swift"; sourceTree = "<group>"; };
+		959509853E0E7DB49A168941AA416040 /* HearthstoneMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneMetadata.swift"; sourceTree = "<group>"; };
+		95B0218BC036A4503167156CEDA14D9B /* GetBitsLeaderboardUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardUserData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardUserData.swift; sourceTree = "<group>"; };
+		981B941D63EEADDA2ED0F3C8CCB02B81 /* HearthstoneHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneHeroMetadata.swift"; sourceTree = "<group>"; };
 		98FC8E9ABECFAC22393A877EFB3ECD11 /* Pods-TwitchExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExample.release.xcconfig"; sourceTree = "<group>"; };
+		99F5D146350AF7527F13DFFA274D5642 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		99F6E520D985AD17DBDAD24B54DD03A7 /* UserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = SwiftTwitch/Classes/Results/Users/UserData.swift; sourceTree = "<group>"; };
 		9C530C832D0756482882CB764D0DEF75 /* Pods-TwitchExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExampleTests-resources.sh"; sourceTree = "<group>"; };
-		9D90BF8782A04B29C17C46B9BE6B4398 /* ExtensionAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/ExtensionAnalyticsReportData.swift; sourceTree = "<group>"; };
-		9DE1EC3F64594C527207A4BDE70F0E0E /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		9D0EB7328BC4BFD4A3EA5B7B3B24AA70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0E9E6DA76ABC1555EF24C78D79EC496 /* Pods-TwitchExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A24D350D8966569DB0EC90BC920D1B61 /* ExtensionData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionData.swift; path = SwiftTwitch/Classes/Results/Users/ExtensionData.swift; sourceTree = "<group>"; };
-		A7A8B5919F73EDEC4B9C558A164FD955 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
-		A8876170E68CA2206119D5751A8D63E6 /* GetGameAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGameAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetGameAnalyticsData.swift; sourceTree = "<group>"; };
-		A98B0EA6C2A5515C3050CBAEBF5FEDE1 /* DateFormattingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormattingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DateFormattingExtensions.swift"; sourceTree = "<group>"; };
-		AB3CF7BD7FE9573DEC780C46870A23A9 /* Marshal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.xcconfig; sourceTree = "<group>"; };
-		AE644B13BB8BFED652B61689AF7DA0B6 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
-		B1FABB3202B91354AED61299E82C3CA6 /* CreateClipData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateClipData.swift; path = SwiftTwitch/Classes/Results/Clips/CreateClipData.swift; sourceTree = "<group>"; };
-		B3298F39D63FC07C898C1CEB09991966 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		A23C0935944383479D5E156186ACAC56 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		A459A8788B0491540C55D3824C716598 /* TwitchPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TwitchPlayer.xcconfig; sourceTree = "<group>"; };
+		A908B73524B15DABBA80BF5EE1E19506 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		ABD3564611398611D87DEED41D5F534D /* ExtensionAnalyticsReportData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionAnalyticsReportData.swift; path = SwiftTwitch/Classes/Results/Analytics/ExtensionAnalyticsReportData.swift; sourceTree = "<group>"; };
+		AC52B560EADD73AC28323501D97B3989 /* UnmarshalingWithContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnmarshalingWithContext.swift; path = Sources/UnmarshalingWithContext.swift; sourceTree = "<group>"; };
+		ADD69C15F44272843410FC5A7A4CE591 /* Unmarshaling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Unmarshaling.swift; path = Sources/Unmarshaling.swift; sourceTree = "<group>"; };
+		AE7B9CA835D3FDFF3A74F9F4993A235C /* SwiftTwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTwitch-dummy.m"; sourceTree = "<group>"; };
+		AF10A9F84769753B8F4ECE6128314914 /* ValueType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueType.swift; path = Sources/ValueType.swift; sourceTree = "<group>"; };
+		AF13A0B81AE9682FE962CDB0F9AD7CF8 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		AFE2769E82A15A49F4548D2769751107 /* GetStreamsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetStreamsData.swift; path = SwiftTwitch/Classes/Results/Streams/GetStreamsData.swift; sourceTree = "<group>"; };
+		B03F7A4BBAD62335B85909885B5401E3 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		B32346772CE26B6B929F09453851D8FD /* TwitchTokenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitchTokenManager.swift; path = SwiftTwitch/Classes/TwitchTokenManager.swift; sourceTree = "<group>"; };
 		B3C1F08EA6185260773359FF07A07BF5 /* Pods-TwitchExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitchExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B46798CCF33C9ABF3F2728013B9DBDDA /* MarshalDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarshalDictionary.swift; path = Sources/MarshalDictionary.swift; sourceTree = "<group>"; };
-		B7C6CB28A5D0CFC142A99AA17CEB0EB8 /* GetGamesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGamesData.swift; path = SwiftTwitch/Classes/Results/Games/GetGamesData.swift; sourceTree = "<group>"; };
-		B94BB5E15DC7B9F63A90A4B911A2C8D2 /* DataParsingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataParsingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DataParsingExtensions.swift"; sourceTree = "<group>"; };
+		B3FC9D0F133C156ECC3BA16E0818684B /* OverwatchPlayerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchPlayerMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchPlayerMetadata.swift"; sourceTree = "<group>"; };
+		B6E075BB004A6D7B1E6DE0500A726DC8 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		B84A34B45CF707FBF2443C2CC028D828 /* OverwatchMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchMetadata.swift"; sourceTree = "<group>"; };
+		B931DA41F0AD3499A2EBCFA26CBF633D /* URLQueryExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLQueryExtensions.swift; path = TwitchPlayer/Classes/Extensions/URLQueryExtensions.swift; sourceTree = "<group>"; };
+		B9D6D9AFD84A4705F4C8BE9B45CABB7E /* Pods_TwitchExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitchExampleTests.framework; path = "Pods-TwitchExampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8E61BAEC6612F0874BE7D0B61D4AA6 /* GetBitsLeaderboardData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetBitsLeaderboardData.swift; path = SwiftTwitch/Classes/Results/Bits/GetBitsLeaderboardData.swift; sourceTree = "<group>"; };
 		BAAED092A5BE49699CF1456B53BCE863 /* Pods-TwitchExampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitchExampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BAB5DEC8D443A0375FFD4AE72C7C1DA3 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
-		BBBE068FA12962F4C311978D6BCFD5E3 /* SwiftTwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTwitch.framework; path = SwiftTwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB810A62D735FB7DFF60FEF3543656BF /* CreateStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateStreamMarkerData.swift; path = SwiftTwitch/Classes/Results/Streams/CreateStreamMarkerData.swift; sourceTree = "<group>"; };
 		BBDC59FDD490FC55E688E6B0AF3DA2D5 /* Pods-TwitchExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitchExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDB268856BED783BA299841268B8DFE6 /* HearthstoneHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HearthstoneHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Hearthstone/HearthstoneHeroMetadata.swift"; sourceTree = "<group>"; };
-		C03CAA2A7483808FAE117E3A1C7F52FB /* SwiftTwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTwitch.xcconfig; sourceTree = "<group>"; };
-		C1264EE17CAAFA42CA62E8A7F82248B6 /* UpdateUserData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UpdateUserData.swift; path = SwiftTwitch/Classes/Results/Users/UpdateUserData.swift; sourceTree = "<group>"; };
-		C4F411E20FFCE8239B9EBD8280A66E82 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
-		C666B89FF028A5273538164F565A8B41 /* SwiftTwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftTwitch.modulemap; sourceTree = "<group>"; };
-		C6F054C61AFE7D3B17C5BCE74017FB14 /* CreateStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CreateStreamMarkerData.swift; path = SwiftTwitch/Classes/Results/Streams/CreateStreamMarkerData.swift; sourceTree = "<group>"; };
-		CAB5DFA875C47AF099A8745E03DD035B /* GetVideosData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetVideosData.swift; path = SwiftTwitch/Classes/Results/Videos/GetVideosData.swift; sourceTree = "<group>"; };
-		CC587F13AB2052C98974541B82B47279 /* StreamMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/StreamMetadata.swift"; sourceTree = "<group>"; };
-		D1E0C46F4DAE0C2CF77BD3FC4018E402 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
-		D7B49AE21F2EB7957E5B29C9CBCAA2E1 /* GetExtensionAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetExtensionAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetExtensionAnalyticsData.swift; sourceTree = "<group>"; };
-		D89CC94C15E51AEAE0204B0AC510BBA3 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
-		DC21E99EB26FCD2C73A337186CB0D08E /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
-		DCBAE38FFAD5A476E3D7E96BC06F9310 /* MarkedStreamData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedStreamData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedStreamData.swift"; sourceTree = "<group>"; };
+		BC0E31F5EB9226A45B7296B3813C4B62 /* PaginationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginationData.swift; path = SwiftTwitch/Classes/Results/PaginationData.swift; sourceTree = "<group>"; };
+		BCDC5C8023DEC69281A9D9FD384F473A /* SwiftTwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTwitch-prefix.pch"; sourceTree = "<group>"; };
+		BE685D11ED7FAF5016EB46CD89C612F1 /* Marshal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Marshal.xcconfig; sourceTree = "<group>"; };
+		BED5FCB5A9068FB2796A8F15F44029F2 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		C35C89D633C046F90B9C608D61F9A13A /* GameData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GameData.swift; path = SwiftTwitch/Classes/Results/Games/GameData.swift; sourceTree = "<group>"; };
+		C54A8D43E222B820414E52D498CEF9B8 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		C8FA561FAF4F44BB124DA65C52F13178 /* VideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoData.swift; path = SwiftTwitch/Classes/Results/Videos/VideoData.swift; sourceTree = "<group>"; };
+		C9B22341ACA57943A288E8474AF0FCF4 /* GetUsersData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUsersData.swift; path = SwiftTwitch/Classes/Results/Users/GetUsersData.swift; sourceTree = "<group>"; };
+		CA49DD6B1DC34A132CB11FF8229A0538 /* MarkedVideoData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarkedVideoData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/MarkedVideoData.swift"; sourceTree = "<group>"; };
+		CB1FFBBACC97F20B54037143BDE58E12 /* OverwatchHeroMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OverwatchHeroMetadata.swift; path = "SwiftTwitch/Classes/Results/Streams/Metadata Types/Overwatch/OverwatchHeroMetadata.swift"; sourceTree = "<group>"; };
+		CEBF14062417775ED8F80A2782BF8989 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		D0CF452CA5BC485A3912752E3C47658B /* UnpostedStreamMarkerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnpostedStreamMarkerData.swift; path = "SwiftTwitch/Classes/Results/Streams/Stream Marker Data Types/UnpostedStreamMarkerData.swift"; sourceTree = "<group>"; };
+		D2243826DAAE3DA3384A68ED304CF279 /* Marshal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Marshal.modulemap; sourceTree = "<group>"; };
+		D2E3DED916A61F99B9749D348D6C307F /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		D8597CE99688F508EFAC3289899C8EF5 /* GetGameAnalyticsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetGameAnalyticsData.swift; path = SwiftTwitch/Classes/Results/Analytics/GetGameAnalyticsData.swift; sourceTree = "<group>"; };
+		D91488E1AA3B16A10A5D293DAB50C6CF /* Marshal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Marshal-prefix.pch"; sourceTree = "<group>"; };
+		DA9B2652EFDA07A17E3F6B443CB76372 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		DB80115A528ABC815C3895AD6BD7BAB6 /* TwitchClipPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitchClipPlayer.swift; path = TwitchPlayer/Classes/TwitchClipPlayer.swift; sourceTree = "<group>"; };
 		DCD600A78B30DC002F3F1F5966E16BF4 /* Pods-TwitchExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExampleTests-frameworks.sh"; sourceTree = "<group>"; };
 		DDB1B2B818D62E9D2C15675CF8F236A1 /* Pods-TwitchExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitchExample.modulemap"; sourceTree = "<group>"; };
-		DE6B6C991148B6B9866CAB13CB29E257 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DF19CC3D65A0005013AA4696B55A29E5 /* SwiftTwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTwitch.framework; path = SwiftTwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17FD06BD4E253FB3C8F5D74FF9DB5FC /* Pods-TwitchExampleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExampleUITests-frameworks.sh"; sourceTree = "<group>"; };
-		E57C3DB8FFC8E27E538139595E56D4F7 /* KeyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyType.swift; path = Sources/KeyType.swift; sourceTree = "<group>"; };
-		EA143A3914B36C6521798352CBB15F3B /* PaginationData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaginationData.swift; path = SwiftTwitch/Classes/Results/PaginationData.swift; sourceTree = "<group>"; };
-		EABD322B3A4062459F7CA4C32714EC3E /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
-		EAC24B0EC2ECF0B0881497A2E1147E3B /* Marshal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Marshal.modulemap; sourceTree = "<group>"; };
+		E25EC449938853D3891E3F4C6A8ABC9F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		E2A6EDAE538A50124C58F10EC739DFA8 /* SwiftTwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTwitch.xcconfig; sourceTree = "<group>"; };
+		E2ADFF65117B7277163AAC14FA9FBCA7 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		E605D685551676BF5AB50B5861B1E6F7 /* TwitchPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitchPlayer.swift; path = TwitchPlayer/Classes/TwitchPlayer.swift; sourceTree = "<group>"; };
+		E80C76B6F81189400E82A3A25D8D1EC2 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		E91BBC0B76F9D0A047F863CA110A7689 /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
 		EC021F35541316F3D3AAC46A8E8C0ADC /* Pods-TwitchExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitchExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EC72F38603FD83B7A29FDCB04BE6024C /* TwitchPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TwitchPlayer.modulemap; sourceTree = "<group>"; };
 		EC80A81641FF56EB32F3EC0611EE8562 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3CC15016FA56F32AE09A58329451A20 /* GetUserExtensionsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUserExtensionsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUserExtensionsData.swift; sourceTree = "<group>"; };
-		F4C25650B8DFFBE3864A4824826E156B /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		ECA59256BC0D2DA2177B0DE8FB8DF3CE /* DateFormattingExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormattingExtensions.swift; path = "SwiftTwitch/Classes/Helping Extensions/DateFormattingExtensions.swift"; sourceTree = "<group>"; };
+		ED4F0FFAE1C28AA95E9DF980BCCD62B7 /* KeyType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyType.swift; path = Sources/KeyType.swift; sourceTree = "<group>"; };
+		F2F384783A2095667842880FEEA78E22 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F4751ECB68071519896D296A78BF0EC4 /* TwitchPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TwitchPlayer-dummy.m"; sourceTree = "<group>"; };
 		F633A9B8DC23EE607CCB563A20756381 /* Pods-TwitchExampleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitchExampleUITests-resources.sh"; sourceTree = "<group>"; };
-		F6A1B9EE6375F83003D0CD75C701344D /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
-		F8A574D9CE144ED2DDF8ABFE7F1C3F22 /* Marshal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marshal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD61A81C1443E8766A48B8BC0C9A5EFF /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/JSON.swift; sourceTree = "<group>"; };
-		FD71C5131FD1469CE436FFF836A9B4E6 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		F7672F70201596B174F6F06C4FEBE3C4 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		F84ED2F72084C36908221FE5FC70C413 /* GetUserExtensionsData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GetUserExtensionsData.swift; path = SwiftTwitch/Classes/Results/Users/GetUserExtensionsData.swift; sourceTree = "<group>"; };
+		FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FEEAAFAACC502AEE9BA2CA68C7FF5178 /* Pods-TwitchExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitchExample-umbrella.h"; sourceTree = "<group>"; };
+		FF1E9B56546C7E4A644D005599D2643E /* WebPlayerKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebPlayerKeys.swift; path = TwitchPlayer/Classes/WebPlayerKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A689F7A304A0961800C9E28B5527DF0 /* Frameworks */ = {
+		0DBCA648A8E24DC2F914EDBB5E4C6135 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B98022887136C76D5DBCDF117354D5 /* Foundation.framework in Frameworks */,
+				BAE7999F662F78D2D44986B857AB4CE1 /* Foundation.framework in Frameworks */,
+				F9BE84007F7B64636A18FA2DA3CB66C2 /* Marshal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1964C35CCEC0762FC66A4F905D1EA4BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2172058B1231EB005A484AA9B76A20CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +394,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFEF9A1363D097986F310AF327179D91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FC79BC0242D142ACB173B0C947F6D1 /* Foundation.framework in Frameworks */,
+				04582D80E557E6849D1BBA6D88CDAB81 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D936986DE312CD03A2B2E487AF49A775 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,81 +419,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDFCBFF6EF2A9019BC6F708EEE5F2BD7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				41BD48CD32FC23803A12109E0137A474 /* Foundation.framework in Frameworks */,
-				4E42F897E24CDBDF8BCFAA5265162E47 /* Marshal.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00D6569FF36FEB2B0CAB3743B6E44E51 /* NVActivityIndicatorView */ = {
+		0746A9C33AA6C436FEEC34431977D823 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				738C0FC2479A8CDA10F4D6675031AA14 /* Presenter */,
-				C1E460EB20E7FDD333DF4D6A328C44B2 /* Support Files */,
+				1EF2F15F1C232782FA04891231775479 /* Marshal.framework */,
+				760FEB75C0A31FE130C66045BA69EE4A /* NVActivityIndicatorView.framework */,
+				844866987EA74A1A719AB8EA67AE119A /* Pods_TwitchExample.framework */,
+				B9D6D9AFD84A4705F4C8BE9B45CABB7E /* Pods_TwitchExampleTests.framework */,
+				4F6C5BACCC614DE6091ADC4C7A8AC56E /* Pods_TwitchExampleUITests.framework */,
+				DF19CC3D65A0005013AA4696B55A29E5 /* SwiftTwitch.framework */,
+				6821C2F7D711E92B1795CAD86BD9592D /* TwitchPlayer.framework */,
 			);
-			name = NVActivityIndicatorView;
-			path = NVActivityIndicatorView;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		13A030EB3E32D319B561AF7150102B08 /* SwiftTwitch */ = {
+		134B890AD2892CA56BE2D26531AD5972 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				76D5AF46FE0C647F9FBC3614F2ADCE6E /* ClipData.swift */,
-				B1FABB3202B91354AED61299E82C3CA6 /* CreateClipData.swift */,
-				22C6D32935351872596BBAB1CE0FA92F /* CreateClipInfoData.swift */,
-				C6F054C61AFE7D3B17C5BCE74017FB14 /* CreateStreamMarkerData.swift */,
-				B94BB5E15DC7B9F63A90A4B911A2C8D2 /* DataParsingExtensions.swift */,
-				A98B0EA6C2A5515C3050CBAEBF5FEDE1 /* DateFormattingExtensions.swift */,
-				001BEF59E99D14FBBD3E4F9C7E59D09D /* DictionaryExtensions.swift */,
-				9D90BF8782A04B29C17C46B9BE6B4398 /* ExtensionAnalyticsReportData.swift */,
-				A24D350D8966569DB0EC90BC920D1B61 /* ExtensionData.swift */,
-				1D0C6ADB318B549EA2ABD9111A83C96A /* GameAnalyticsReportData.swift */,
-				172DC9C14CF16AC730449D095132B73B /* GameData.swift */,
-				0386A75E1F115E63EE5EBAA4C2C82C9B /* GetBitsLeaderboardData.swift */,
-				487A49108B025ACE5B144D24B305C2B2 /* GetBitsLeaderboardUserData.swift */,
-				240686A67BD581AF8CED5A85700E9F1A /* GetClipsData.swift */,
-				D7B49AE21F2EB7957E5B29C9CBCAA2E1 /* GetExtensionAnalyticsData.swift */,
-				A8876170E68CA2206119D5751A8D63E6 /* GetGameAnalyticsData.swift */,
-				B7C6CB28A5D0CFC142A99AA17CEB0EB8 /* GetGamesData.swift */,
-				83B8125DC946809232127D25FF2EAFF9 /* GetStreamMarkersData.swift */,
-				4B1BA35C87F6486D9FD89999127BEC78 /* GetStreamsData.swift */,
-				0B3CCCB10F08E7EFAF2DA1B8D46B2ECD /* GetStreamsMetadataData.swift */,
-				2DF5D5F34FE6B9A9BBE8526111621CB7 /* GetTopGamesData.swift */,
-				F3CC15016FA56F32AE09A58329451A20 /* GetUserExtensionsData.swift */,
-				72CA7E61712A2FD1D1B79BEA49876F3F /* GetUsersData.swift */,
-				48228150FC2E47B306E390CEE3E97B3E /* GetUsersFollowsData.swift */,
-				CAB5DFA875C47AF099A8745E03DD035B /* GetVideosData.swift */,
-				BDB268856BED783BA299841268B8DFE6 /* HearthstoneHeroMetadata.swift */,
-				7D5DD1229F2F318ACFE138A1BC2D39D6 /* HearthstoneMetadata.swift */,
-				8049A9D62F64402E9618063DCC5086D8 /* HearthstonePlayerMetadata.swift */,
-				DCBAE38FFAD5A476E3D7E96BC06F9310 /* MarkedStreamData.swift */,
-				4D30417933E460AC19A82054354AA0D1 /* MarkedVideoData.swift */,
-				710FE4C136AA03C8FB5D8A241D363CAE /* OverwatchHeroMetadata.swift */,
-				7286D8CB28B758E62B8CBACFDAD3B0F8 /* OverwatchMetadata.swift */,
-				6FC26DD2E8A9C62DD9614BE1E8D93BB2 /* OverwatchPlayerMetadata.swift */,
-				EA143A3914B36C6521798352CBB15F3B /* PaginationData.swift */,
-				920B15AD8DCD9C740A798E083F11D436 /* PostedStreamMarkerData.swift */,
-				67ECBDBD3D902AA6A31AF08AC7B591F2 /* StreamData.swift */,
-				CC587F13AB2052C98974541B82B47279 /* StreamMetadata.swift */,
-				2EB21F68340760A1F31809D1DB311A74 /* Twitch.swift */,
-				56591D7503B7B532BC0BBCFA7FA0C51E /* TwitchTokenManager.swift */,
-				138AC952A2DD8FAEA3C08EAE2DCCA04A /* UnpostedStreamMarkerData.swift */,
-				C1264EE17CAAFA42CA62E8A7F82248B6 /* UpdateUserData.swift */,
-				6CED88B1DBB62E1BD7B0E4122E525608 /* URLExtension.swift */,
-				00517CC003FB13399BF62C907E3BF183 /* URLRequestExtension.swift */,
-				5EB0659A3CB31ACD02A88995188E1B4D /* UserData.swift */,
-				1BB620CE96C9B602B28D72ABBD8CB5CB /* UserFollowData.swift */,
-				12B0305FECEAB88010792CBC6A219026 /* VideoData.swift */,
-				507E1C271FFBC7E11910D09290D2F78A /* Support Files */,
+				3BE1BC8421230E22E5D4A80A44F482EC /* Info.plist */,
+				D2243826DAAE3DA3384A68ED304CF279 /* Marshal.modulemap */,
+				BE685D11ED7FAF5016EB46CD89C612F1 /* Marshal.xcconfig */,
+				4FE90CE81A1615F954D44C432D980D78 /* Marshal-dummy.m */,
+				D91488E1AA3B16A10A5D293DAB50C6CF /* Marshal-prefix.pch */,
+				47BBF23730CB4EBE736381A9184DD4EC /* Marshal-umbrella.h */,
 			);
-			name = SwiftTwitch;
-			path = SwiftTwitch;
+			name = "Support Files";
+			path = "../Target Support Files/Marshal";
 			sourceTree = "<group>";
 		};
 		17FDD1D67980D8E7292DF61717404A5D /* Pods-TwitchExample */ = {
@@ -469,14 +468,59 @@
 			path = "Target Support Files/Pods-TwitchExample";
 			sourceTree = "<group>";
 		};
-		2DD76544A8720AE8332694CB6B7EC0DD /* Pods */ = {
+		269C03AB0A6C841274A7B9B6F23E9D57 /* SwiftTwitch */ = {
 			isa = PBXGroup;
 			children = (
-				53A4D9D2F864FB5309A65D68D5CAAC89 /* Marshal */,
-				00D6569FF36FEB2B0CAB3743B6E44E51 /* NVActivityIndicatorView */,
-				13A030EB3E32D319B561AF7150102B08 /* SwiftTwitch */,
+				410017F71B130FB4C55DEABD5D8C2CB2 /* ClipData.swift */,
+				032C94CA258EA746DBB2F1C9E66A407E /* CreateClipData.swift */,
+				7EC2B9B97CC22E1B0DE573CCA790DD25 /* CreateClipInfoData.swift */,
+				BB810A62D735FB7DFF60FEF3543656BF /* CreateStreamMarkerData.swift */,
+				37E89CF6D3FED7EBC47F32C781C81CBD /* DataParsingExtensions.swift */,
+				ECA59256BC0D2DA2177B0DE8FB8DF3CE /* DateFormattingExtensions.swift */,
+				739C35466132FF9643D2840661C39F22 /* DictionaryExtensions.swift */,
+				ABD3564611398611D87DEED41D5F534D /* ExtensionAnalyticsReportData.swift */,
+				85C170E50F45B8CB7B75A847C31B2969 /* ExtensionData.swift */,
+				64117EB03D033B55C260887B292D09B7 /* GameAnalyticsReportData.swift */,
+				C35C89D633C046F90B9C608D61F9A13A /* GameData.swift */,
+				BA8E61BAEC6612F0874BE7D0B61D4AA6 /* GetBitsLeaderboardData.swift */,
+				95B0218BC036A4503167156CEDA14D9B /* GetBitsLeaderboardUserData.swift */,
+				2C68EAAC8D7AD17D4AC8BD43CBAA09AB /* GetClipsData.swift */,
+				1A4749EAC95AC14719EE2F6E05B56166 /* GetExtensionAnalyticsData.swift */,
+				D8597CE99688F508EFAC3289899C8EF5 /* GetGameAnalyticsData.swift */,
+				61FADE27E76413C2DF8848EC1DCB6ADB /* GetGamesData.swift */,
+				9490A3BEAA44E5CE5E5FBEF11107B2B2 /* GetStreamMarkersData.swift */,
+				AFE2769E82A15A49F4548D2769751107 /* GetStreamsData.swift */,
+				62DD110A6B01D702BE81781F5D7F3271 /* GetStreamsMetadataData.swift */,
+				4FF84D40BF383FB975B3C5B6CCBD4095 /* GetTopGamesData.swift */,
+				F84ED2F72084C36908221FE5FC70C413 /* GetUserExtensionsData.swift */,
+				C9B22341ACA57943A288E8474AF0FCF4 /* GetUsersData.swift */,
+				3FBADA8EDF79F5524DEB7CAC67866C69 /* GetUsersFollowsData.swift */,
+				7916980B9E70B1469CB86E9F56A7FC78 /* GetVideosData.swift */,
+				981B941D63EEADDA2ED0F3C8CCB02B81 /* HearthstoneHeroMetadata.swift */,
+				959509853E0E7DB49A168941AA416040 /* HearthstoneMetadata.swift */,
+				2929E5FDAD0CFC15605FFEC458DD3985 /* HearthstonePlayerMetadata.swift */,
+				6C42D9C0B4E23D51F18DF5FAE5CE1E45 /* MarkedStreamData.swift */,
+				CA49DD6B1DC34A132CB11FF8229A0538 /* MarkedVideoData.swift */,
+				CB1FFBBACC97F20B54037143BDE58E12 /* OverwatchHeroMetadata.swift */,
+				B84A34B45CF707FBF2443C2CC028D828 /* OverwatchMetadata.swift */,
+				B3FC9D0F133C156ECC3BA16E0818684B /* OverwatchPlayerMetadata.swift */,
+				BC0E31F5EB9226A45B7296B3813C4B62 /* PaginationData.swift */,
+				94A1A4640F23F60C0C82F39E8E20AEBD /* PostedStreamMarkerData.swift */,
+				88096C8A49059E18F840A6F6A5EA62CC /* StreamData.swift */,
+				1DF0D8CD67F3DCD0C8FAA6C28609AA4F /* StreamMetadata.swift */,
+				890598E0639E79287E9D7AC65EE3BC45 /* Twitch.swift */,
+				B32346772CE26B6B929F09453851D8FD /* TwitchTokenManager.swift */,
+				D0CF452CA5BC485A3912752E3C47658B /* UnpostedStreamMarkerData.swift */,
+				2338D1D9B3A81E20E821BCA386090768 /* UpdateUserData.swift */,
+				338668DB244EB9042E71C05B9DB96689 /* URLExtension.swift */,
+				4F2CA6CBA3457D640B7A60B57D2F89AE /* URLRequestExtension.swift */,
+				99F6E520D985AD17DBDAD24B54DD03A7 /* UserData.swift */,
+				3F93E71119F76C85A23DEFAC6F64E4A4 /* UserFollowData.swift */,
+				C8FA561FAF4F44BB124DA65C52F13178 /* VideoData.swift */,
+				CAA4962544746868AC153D5AB9FB0A47 /* Support Files */,
 			);
-			name = Pods;
+			name = SwiftTwitch;
+			path = SwiftTwitch;
 			sourceTree = "<group>";
 		};
 		350EA17E0DEB5CCBBFB4B5C774B3C077 /* Pods-TwitchExampleUITests */ = {
@@ -507,146 +551,164 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		507E1C271FFBC7E11910D09290D2F78A /* Support Files */ = {
+		44F47A33D74D59B32B0C3ADB92DBFEF3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75246D0FD65B71300B7048F91D35704C /* Info.plist */,
-				C666B89FF028A5273538164F565A8B41 /* SwiftTwitch.modulemap */,
-				C03CAA2A7483808FAE117E3A1C7F52FB /* SwiftTwitch.xcconfig */,
-				91ED70D1C7DF7B5D1FA6188149DEE9D0 /* SwiftTwitch-dummy.m */,
-				370E4A4249EF92A41314737CA879CCD8 /* SwiftTwitch-prefix.pch */,
-				4BBBCB3B976DD598D9C3336BC751A676 /* SwiftTwitch-umbrella.h */,
+				C646D06734A1E206748592A7FEF208B9 /* Marshal */,
+				A5062FE0B1972DE8D586253CA062B0C7 /* NVActivityIndicatorView */,
+				269C03AB0A6C841274A7B9B6F23E9D57 /* SwiftTwitch */,
+				BDD532C6C8A29ABFCD50B50F0CAC2E5B /* TwitchPlayer */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftTwitch";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		53A4D9D2F864FB5309A65D68D5CAAC89 /* Marshal */ = {
+		49E6EE69763B53BE17468C83B67BBB48 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25E3D4808E645F537A4580220852F2F0 /* Error.swift */,
-				FD61A81C1443E8766A48B8BC0C9A5EFF /* JSON.swift */,
-				E57C3DB8FFC8E27E538139595E56D4F7 /* KeyType.swift */,
-				B46798CCF33C9ABF3F2728013B9DBDDA /* MarshalDictionary.swift */,
-				8FD7B27684B620E93E01EBD969D404EF /* MarshaledObject.swift */,
-				3361715CA372416ABABA95D48C901BA8 /* Marshaling.swift */,
-				98A7783606FCA8BB501E63165D53E968 /* Migration.swift */,
-				A7A8B5919F73EDEC4B9C558A164FD955 /* Operators.swift */,
-				12073DD8100555A09F841B5C594F104B /* Unmarshaling.swift */,
-				8D6BDF64718F9EB3E1EE0F887B3A04E6 /* UnmarshalingWithContext.swift */,
-				92F0A2138AD4366CB0F0BC204CA5515E /* UnmarshalUpdating.swift */,
-				7EFC9FB3C79E26AB6DC89EF1A19CC408 /* ValueType.swift */,
-				5BA860991C864D77503A7903FE528BCB /* Support Files */,
+				5518AF462108967423F077B1E208F678 /* Marshal.framework */,
+				5A7B3A9EEF242E5E168072293BB6BF3F /* iOS */,
 			);
-			name = Marshal;
-			path = Marshal;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5BA860991C864D77503A7903FE528BCB /* Support Files */ = {
+		4B10BB8BB780F62DA945F7FEFABDD66D /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				97621007BEDBF5546BE353086D75ADF1 /* Info.plist */,
-				EAC24B0EC2ECF0B0881497A2E1147E3B /* Marshal.modulemap */,
-				AB3CF7BD7FE9573DEC780C46870A23A9 /* Marshal.xcconfig */,
-				7002B92CF92C95FFBD84F538AC479C08 /* Marshal-dummy.m */,
-				21070347432755B5A321CA7147821E51 /* Marshal-prefix.pch */,
-				351DE0AFB9EE2DB700F2D2B392BC5362 /* Marshal-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Marshal";
-			sourceTree = "<group>";
-		};
-		738C0FC2479A8CDA10F4D6675031AA14 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				7269FE92273FD2CB43E52C38FB824886 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
-				0D40451222758B941003499DC6C4F0D2 /* NVActivityIndicatorAnimationBallBeat.swift */,
-				4A7F676D6152AA0DB73E218B3600D546 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
-				119089C8D57975291503C8B8526A9C33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
-				71501ECF5DF219D8486A3E7A1846678A /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
-				6A94C5B3D2AD4B80D77E3024F82D832C /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
-				B3298F39D63FC07C898C1CEB09991966 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
-				F4C25650B8DFFBE3864A4824826E156B /* NVActivityIndicatorAnimationBallGridPulse.swift */,
-				EABD322B3A4062459F7CA4C32714EC3E /* NVActivityIndicatorAnimationBallPulse.swift */,
-				59AECF5D10FA5E01FF23BA99B8E621DE /* NVActivityIndicatorAnimationBallPulseRise.swift */,
-				84730621890CA7A6A96CD565F364CDF0 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
-				AE644B13BB8BFED652B61689AF7DA0B6 /* NVActivityIndicatorAnimationBallRotate.swift */,
-				BAB5DEC8D443A0375FFD4AE72C7C1DA3 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
-				362CB814EAA9A7726A4671871AFAEF86 /* NVActivityIndicatorAnimationBallScale.swift */,
-				16FEF9B18F0400358B8BB76D0224233D /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
-				94FFD62A174872EEED4A792A40A5189F /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
-				C4F411E20FFCE8239B9EBD8280A66E82 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
-				DC21E99EB26FCD2C73A337186CB0D08E /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
-				9DE1EC3F64594C527207A4BDE70F0E0E /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
-				6B460112F8B3AA9CBA7F723B3DC637B0 /* NVActivityIndicatorAnimationBallZigZag.swift */,
-				F6A1B9EE6375F83003D0CD75C701344D /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
-				66BFA1A10899BBDD7BE2AEFA1ADABF88 /* NVActivityIndicatorAnimationBlank.swift */,
-				7FD57DF9FEAE6179E4713915060FD8A0 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
-				2CD03F5E2CABE28E04168E13B12B7E5C /* NVActivityIndicatorAnimationCubeTransition.swift */,
-				0A2FA6F274520A08C172CB1D6F5C00D0 /* NVActivityIndicatorAnimationDelegate.swift */,
-				2EC009BF61D1234580048606E0800B94 /* NVActivityIndicatorAnimationLineScale.swift */,
-				2FB090264A4B48774F44A9C9DC46F385 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
-				D1E0C46F4DAE0C2CF77BD3FC4018E402 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
-				8B112F9570327288D5C85F08DBC335F1 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
-				871471834FB9C400DA726E5FF72DDE46 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
-				1492849C9C2866DA75B767A6721BA623 /* NVActivityIndicatorAnimationOrbit.swift */,
-				725A5FDAEB3AB4A5592A33EA92FCE9E4 /* NVActivityIndicatorAnimationPacman.swift */,
-				5D843EC7A92EDE4A1DB5EAF57BB1FEA7 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
-				5318FF7731FD4A5BDFAE8299DD9F0755 /* NVActivityIndicatorAnimationSquareSpin.swift */,
-				801FA8402C9ABDC236933D27BC635280 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
-				969E45F1D0E8588385656DE962FFF6EB /* NVActivityIndicatorPresenter.swift */,
-				10498D53056DBE1C8745B0FEBD7B01DF /* NVActivityIndicatorShape.swift */,
-				5DDCA32E986312F2B10A15CE4B8F42D4 /* NVActivityIndicatorView.swift */,
-				D89CC94C15E51AEAE0204B0AC510BBA3 /* NVActivityIndicatorViewable.swift */,
+				0F3C4E19CB6682F91D066D9E642EFAC1 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				E80C76B6F81189400E82A3A25D8D1EC2 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				78C13FBD8CA085143078325650BDA1AB /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				78E94258D54502D767624CB18F496E5B /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				E2ADFF65117B7277163AAC14FA9FBCA7 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				7AFA3D4E36F20F2025ABFA3AC8514A87 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				82E54975A569372BAD1BA1BDE72B20BF /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				F7672F70201596B174F6F06C4FEBE3C4 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				BED5FCB5A9068FB2796A8F15F44029F2 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				1717FD006FC702C9825102854E735334 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				3126C078EA72F86E1A9B5DFB6124FA2C /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				4275B7FBB20572B3F12E4522D8B0EEC1 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				4CE87270EE3860F1E0FDC72343521052 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				43003CCE3E312E5412D0843FA758DDD4 /* NVActivityIndicatorAnimationBallScale.swift */,
+				1ED5B4C8C94B60D42EDE574670E6C863 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				8A9FCE033A3C8E61EE131291A9E1F930 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				80670C322354CC8BBB38ACC192610373 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				0DF5C23BFEDA5052BC60BAF9DBDEDCC7 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				54A195AF8B7E14B1F1C932AB0ABB31D1 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				5B12DFA9ADC5149B4D52564505A28B0A /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				847061AAF0E88A251E9BB37BE0585A73 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				6653F8B125DA39E21311493F06FB9C7E /* NVActivityIndicatorAnimationBlank.swift */,
+				0AC76FB346192790248EBF3D50608F92 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				673EFAFA9F2A7F99E6E38B09B9DD56A0 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				7E670F1CCBAC89F756330BD27CC6235B /* NVActivityIndicatorAnimationDelegate.swift */,
+				6AD67DFB8F3CA3D5FD305AA831A0624D /* NVActivityIndicatorAnimationLineScale.swift */,
+				B6E075BB004A6D7B1E6DE0500A726DC8 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				99F5D146350AF7527F13DFFA274D5642 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				AF13A0B81AE9682FE962CDB0F9AD7CF8 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				E25EC449938853D3891E3F4C6A8ABC9F /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				0E5B92086D4843200EFC66B68D9C8141 /* NVActivityIndicatorAnimationOrbit.swift */,
+				84E04FC91E14ADCE8BA208D2980B1FC9 /* NVActivityIndicatorAnimationPacman.swift */,
+				0EFF7381EDFFE099EBA69D61D10EBA4F /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				DA9B2652EFDA07A17E3F6B443CB76372 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				CEBF14062417775ED8F80A2782BF8989 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				E91BBC0B76F9D0A047F863CA110A7689 /* NVActivityIndicatorPresenter.swift */,
+				A23C0935944383479D5E156186ACAC56 /* NVActivityIndicatorShape.swift */,
+				B03F7A4BBAD62335B85909885B5401E3 /* NVActivityIndicatorView.swift */,
+				700B5964F6A627EF59D0F24C903FDC1C /* NVActivityIndicatorViewable.swift */,
 			);
 			name = Presenter;
+			sourceTree = "<group>";
+		};
+		53513DDCC65F39C5609D692EA36F01FF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				311BA67BBC9F8B79D7D9C814C0F5527A /* Info.plist */,
+				0806CA7D608A988DD4B766138A6CED83 /* NVActivityIndicatorView.modulemap */,
+				C54A8D43E222B820414E52D498CEF9B8 /* NVActivityIndicatorView.xcconfig */,
+				D2E3DED916A61F99B9749D348D6C307F /* NVActivityIndicatorView-dummy.m */,
+				0D04ACD1295A64A9C25020071F8722F6 /* NVActivityIndicatorView-prefix.pch */,
+				8FC9FBADD50C19556AB5D565F4E7E98D /* NVActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		5A7B3A9EEF242E5E168072293BB6BF3F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FB6FB4FBEBC9956300826192CFB80280 /* Foundation.framework */,
+				F2F384783A2095667842880FEEA78E22 /* QuartzCore.framework */,
+				350DCA6E7AEF3E664597AA0425A6929C /* UIKit.framework */,
+				3B8692AD04E77605EBCF13E9C04AC64D /* WebKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A6ADE5C2C2F78698905F09E5C1A2143E /* Frameworks */,
-				2DD76544A8720AE8332694CB6B7EC0DD /* Pods */,
-				B7605FD9EF6EDC8C1DA0AB2BC296588D /* Products */,
+				49E6EE69763B53BE17468C83B67BBB48 /* Frameworks */,
+				44F47A33D74D59B32B0C3ADB92DBFEF3 /* Pods */,
+				0746A9C33AA6C436FEEC34431977D823 /* Products */,
 				3DEADC6ECA7D768F5D5200BF00217B4A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A6ADE5C2C2F78698905F09E5C1A2143E /* Frameworks */ = {
+		A5062FE0B1972DE8D586253CA062B0C7 /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				F8A574D9CE144ED2DDF8ABFE7F1C3F22 /* Marshal.framework */,
-				E7F08B66639BB3ACD31581A15206A6FA /* iOS */,
+				4B10BB8BB780F62DA945F7FEFABDD66D /* Presenter */,
+				53513DDCC65F39C5609D692EA36F01FF /* Support Files */,
 			);
-			name = Frameworks;
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		B7605FD9EF6EDC8C1DA0AB2BC296588D /* Products */ = {
+		BDD532C6C8A29ABFCD50B50F0CAC2E5B /* TwitchPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				24CB3EC1874F855B866CB51154AFC195 /* Marshal.framework */,
-				90A0C09EE9222A6798613E147779BCAE /* NVActivityIndicatorView.framework */,
-				3B97BF17C55E585FD376829C3FE14888 /* Pods_TwitchExample.framework */,
-				82F14F2D8363279B5FDD1E17CFB03F31 /* Pods_TwitchExampleTests.framework */,
-				46E45721D40C756CA3A45FE0B9C5A459 /* Pods_TwitchExampleUITests.framework */,
-				BBBE068FA12962F4C311978D6BCFD5E3 /* SwiftTwitch.framework */,
+				DB80115A528ABC815C3895AD6BD7BAB6 /* TwitchClipPlayer.swift */,
+				E605D685551676BF5AB50B5861B1E6F7 /* TwitchPlayer.swift */,
+				B931DA41F0AD3499A2EBCFA26CBF633D /* URLQueryExtensions.swift */,
+				FF1E9B56546C7E4A644D005599D2643E /* WebPlayerKeys.swift */,
+				D269A615A7241D18FA766C5A695DFC6C /* Support Files */,
 			);
-			name = Products;
+			name = TwitchPlayer;
+			path = TwitchPlayer;
 			sourceTree = "<group>";
 		};
-		C1E460EB20E7FDD333DF4D6A328C44B2 /* Support Files */ = {
+		C646D06734A1E206748592A7FEF208B9 /* Marshal */ = {
 			isa = PBXGroup;
 			children = (
-				14D26574245BAB755717A7D1A37E231F /* Info.plist */,
-				5DEE13DBF7575F58266A8308E0200B04 /* NVActivityIndicatorView.modulemap */,
-				1B85575F478250CA8E9C642B54BF6C15 /* NVActivityIndicatorView.xcconfig */,
-				96DA24013E3E432B68D4192260B3B5D4 /* NVActivityIndicatorView-dummy.m */,
-				FD71C5131FD1469CE436FFF836A9B4E6 /* NVActivityIndicatorView-prefix.pch */,
-				8E3E043DBE3A181F06998B6938D1C454 /* NVActivityIndicatorView-umbrella.h */,
+				8E002F91AC87DBF97323A7212CB5DA1C /* Error.swift */,
+				75BCC3C8868C5B3A7A9AEA5C9E411FEF /* JSON.swift */,
+				ED4F0FFAE1C28AA95E9DF980BCCD62B7 /* KeyType.swift */,
+				61BBA81F450206C413EA5671BF410E2C /* MarshalDictionary.swift */,
+				06D2BFA0F928014877C160D3EB962985 /* MarshaledObject.swift */,
+				6B4C201BC10E5AAB4F79378DEC6BB4AE /* Marshaling.swift */,
+				3D84EC278793BEB407BC1CD230AA4A32 /* Migration.swift */,
+				A908B73524B15DABBA80BF5EE1E19506 /* Operators.swift */,
+				ADD69C15F44272843410FC5A7A4CE591 /* Unmarshaling.swift */,
+				AC52B560EADD73AC28323501D97B3989 /* UnmarshalingWithContext.swift */,
+				778D163417B7DB4198F2CF373C5D4EC8 /* UnmarshalUpdating.swift */,
+				AF10A9F84769753B8F4ECE6128314914 /* ValueType.swift */,
+				134B890AD2892CA56BE2D26531AD5972 /* Support Files */,
+			);
+			name = Marshal;
+			path = Marshal;
+			sourceTree = "<group>";
+		};
+		CAA4962544746868AC153D5AB9FB0A47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D0EB7328BC4BFD4A3EA5B7B3B24AA70 /* Info.plist */,
+				85D97C65621E04D7154C69ADABF06027 /* SwiftTwitch.modulemap */,
+				E2A6EDAE538A50124C58F10EC739DFA8 /* SwiftTwitch.xcconfig */,
+				AE7B9CA835D3FDFF3A74F9F4993A235C /* SwiftTwitch-dummy.m */,
+				BCDC5C8023DEC69281A9D9FD384F473A /* SwiftTwitch-prefix.pch */,
+				715EF8DC16CB5D380C6B191EBD815166 /* SwiftTwitch-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/NVActivityIndicatorView";
+			path = "../Target Support Files/SwiftTwitch";
 			sourceTree = "<group>";
 		};
 		CF330B46EA198345D2F32CBEEFC509D6 /* Pods-TwitchExampleTests */ = {
@@ -667,14 +729,18 @@
 			path = "Target Support Files/Pods-TwitchExampleTests";
 			sourceTree = "<group>";
 		};
-		E7F08B66639BB3ACD31581A15206A6FA /* iOS */ = {
+		D269A615A7241D18FA766C5A695DFC6C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				235AB0619A793E972BCFA0FC3F20743A /* Foundation.framework */,
-				DE6B6C991148B6B9866CAB13CB29E257 /* QuartzCore.framework */,
-				3064B09A57F49AA01DF760B97B8C024A /* UIKit.framework */,
+				205EEA484CFAA7703C289739B5FA1B97 /* Info.plist */,
+				EC72F38603FD83B7A29FDCB04BE6024C /* TwitchPlayer.modulemap */,
+				A459A8788B0491540C55D3824C716598 /* TwitchPlayer.xcconfig */,
+				F4751ECB68071519896D296A78BF0EC4 /* TwitchPlayer-dummy.m */,
+				311A8EA72EF8381C329620BE9A3D91EA /* TwitchPlayer-prefix.pch */,
+				6385660F1735CD75573CB61581C34A64 /* TwitchPlayer-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/TwitchPlayer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -688,11 +754,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F50AFFC29726418F020AF5538322AA8 /* Headers */ = {
+		13AE6CBDA1BE65AD45D544C0023561DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B707E3A82CF745AA8D3A9F18414C45 /* SwiftTwitch-umbrella.h in Headers */,
+				71A3A9FB7A774BFB2E96D94DFB1601BB /* Pods-TwitchExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28BCF6A115C659469FA68F5F34418FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3224BDE5312B027582553B63CC58B6F9 /* TwitchPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,11 +778,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9AFD4B77A1E655109D983549AD4A6555 /* Headers */ = {
+		C34865DAFEAA11128464B70009AE1C7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				528EA8AC319D726EDC7BEA77CE79A60D /* Pods-TwitchExample-umbrella.h in Headers */,
+				97306FEF88D28CEC0E277C9E8D263EB6 /* SwiftTwitch-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -731,26 +805,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		27C85A4AD4B95260F2F98E2843DA3BDD /* Pods-TwitchExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7233125F76E3F0C93D981001F9FB64EC /* Build configuration list for PBXNativeTarget "Pods-TwitchExample" */;
-			buildPhases = (
-				5C545BDCF7600F0971817E8328A4B27A /* Sources */,
-				4A689F7A304A0961800C9E28B5527DF0 /* Frameworks */,
-				9AFD4B77A1E655109D983549AD4A6555 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E2B28909F4230DC7A85BD374BCF16B92 /* PBXTargetDependency */,
-				6E900C4D89EBE9C0BB8EE719ED64A7DC /* PBXTargetDependency */,
-				AD4BBE29103BE7B4B92CD34A8CBCD5BD /* PBXTargetDependency */,
-			);
-			name = "Pods-TwitchExample";
-			productName = "Pods-TwitchExample";
-			productReference = 3B97BF17C55E585FD376829C3FE14888 /* Pods_TwitchExample.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		2F56A7E4DFE218C0DAD320699DD11F5C /* NVActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 133D3D5E813FD27EC1C6753446B495F5 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
@@ -765,25 +819,25 @@
 			);
 			name = NVActivityIndicatorView;
 			productName = NVActivityIndicatorView;
-			productReference = 90A0C09EE9222A6798613E147779BCAE /* NVActivityIndicatorView.framework */;
+			productReference = 760FEB75C0A31FE130C66045BA69EE4A /* NVActivityIndicatorView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8366F0081EB4BC09E5F7E0F946AA94D6 /* SwiftTwitch */ = {
+		7930F2A0B8B1BFEBD47EFB14BBA444AF /* SwiftTwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCDB95CDF9D47B4252990E5CF884ABAC /* Build configuration list for PBXNativeTarget "SwiftTwitch" */;
+			buildConfigurationList = D90DA0A7E6A0E066E42B9AE26A160AD2 /* Build configuration list for PBXNativeTarget "SwiftTwitch" */;
 			buildPhases = (
-				1936FE82F3E68F806F51B3FF94127CDB /* Sources */,
-				FDFCBFF6EF2A9019BC6F708EEE5F2BD7 /* Frameworks */,
-				1F50AFFC29726418F020AF5538322AA8 /* Headers */,
+				C0D828C63DCB7BF3526292CC89682B01 /* Sources */,
+				0DBCA648A8E24DC2F914EDBB5E4C6135 /* Frameworks */,
+				C34865DAFEAA11128464B70009AE1C7F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BC2046315BBCED6CFBED2B65736497FA /* PBXTargetDependency */,
+				6F395F6CA39034BC31C736630BAA0533 /* PBXTargetDependency */,
 			);
 			name = SwiftTwitch;
 			productName = SwiftTwitch;
-			productReference = BBBE068FA12962F4C311978D6BCFD5E3 /* SwiftTwitch.framework */;
+			productReference = DF19CC3D65A0005013AA4696B55A29E5 /* SwiftTwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9F99C73A71F7CEC6AFBCBFC1AA5963BE /* Pods-TwitchExampleUITests */ = {
@@ -801,7 +855,7 @@
 			);
 			name = "Pods-TwitchExampleUITests";
 			productName = "Pods-TwitchExampleUITests";
-			productReference = 46E45721D40C756CA3A45FE0B9C5A459 /* Pods_TwitchExampleUITests.framework */;
+			productReference = 4F6C5BACCC614DE6091ADC4C7A8AC56E /* Pods_TwitchExampleUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DB8BE9B740D9DA044E22010F47872569 /* Pods-TwitchExampleTests */ = {
@@ -819,7 +873,24 @@
 			);
 			name = "Pods-TwitchExampleTests";
 			productName = "Pods-TwitchExampleTests";
-			productReference = 82F14F2D8363279B5FDD1E17CFB03F31 /* Pods_TwitchExampleTests.framework */;
+			productReference = B9D6D9AFD84A4705F4C8BE9B45CABB7E /* Pods_TwitchExampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F323EA1EB78681BA6CFD80371D93E115 /* TwitchPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0C10CC2C562E723BD54F72B4FCA2BC /* Build configuration list for PBXNativeTarget "TwitchPlayer" */;
+			buildPhases = (
+				149072E0594BBFC269F742A973FE3BA1 /* Sources */,
+				CFEF9A1363D097986F310AF327179D91 /* Frameworks */,
+				28BCF6A115C659469FA68F5F34418FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitchPlayer;
+			productName = TwitchPlayer;
+			productReference = 6821C2F7D711E92B1795CAD86BD9592D /* TwitchPlayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */ = {
@@ -836,7 +907,28 @@
 			);
 			name = Marshal;
 			productName = Marshal;
-			productReference = 24CB3EC1874F855B866CB51154AFC195 /* Marshal.framework */;
+			productReference = 1EF2F15F1C232782FA04891231775479 /* Marshal.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD90B0166AF1BFC89E4725D58423C4F4 /* Pods-TwitchExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B53577B9F634139DFC9F93A07077CCB /* Build configuration list for PBXNativeTarget "Pods-TwitchExample" */;
+			buildPhases = (
+				98021F1E2C906C86696027E99BAEE771 /* Sources */,
+				1964C35CCEC0762FC66A4F905D1EA4BA /* Frameworks */,
+				13AE6CBDA1BE65AD45D544C0023561DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E672747C0270491C844E9D78D43E4A3 /* PBXTargetDependency */,
+				5197F6CB05444F54A5793A388EF465BF /* PBXTargetDependency */,
+				D07311389996E96559088C97B81F4B30 /* PBXTargetDependency */,
+				56B87ECD84C5D13AC26CD9D7F7228A86 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitchExample";
+			productName = "Pods-TwitchExample";
+			productReference = 844866987EA74A1A719AB8EA67AE119A /* Pods_TwitchExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -856,80 +948,39 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B7605FD9EF6EDC8C1DA0AB2BC296588D /* Products */;
+			productRefGroup = 0746A9C33AA6C436FEEC34431977D823 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */,
 				2F56A7E4DFE218C0DAD320699DD11F5C /* NVActivityIndicatorView */,
-				27C85A4AD4B95260F2F98E2843DA3BDD /* Pods-TwitchExample */,
+				FD90B0166AF1BFC89E4725D58423C4F4 /* Pods-TwitchExample */,
 				DB8BE9B740D9DA044E22010F47872569 /* Pods-TwitchExampleTests */,
 				9F99C73A71F7CEC6AFBCBFC1AA5963BE /* Pods-TwitchExampleUITests */,
-				8366F0081EB4BC09E5F7E0F946AA94D6 /* SwiftTwitch */,
+				7930F2A0B8B1BFEBD47EFB14BBA444AF /* SwiftTwitch */,
+				F323EA1EB78681BA6CFD80371D93E115 /* TwitchPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		149072E0594BBFC269F742A973FE3BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA602B8A5951E0F86116CE76880C5E6 /* TwitchClipPlayer.swift in Sources */,
+				62F5B63067264529BD03C0427AB34CAA /* TwitchPlayer-dummy.m in Sources */,
+				DAC4442866C5B08B2B358656AFC3341E /* TwitchPlayer.swift in Sources */,
+				66DC8FE89ADFDD22F8AD84B1A8E3DE64 /* URLQueryExtensions.swift in Sources */,
+				4CAB9856362F6245F4EA4F27E0B46BA4 /* WebPlayerKeys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		156F655B7BEF752F223EA2A742A7DE82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0282D250A594A9FC15ECE9F6D9E951B3 /* Pods-TwitchExampleTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1936FE82F3E68F806F51B3FF94127CDB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4138F251922227BBD848BC7C89B1E74D /* ClipData.swift in Sources */,
-				1B5EA208D610BA0D72CCEF9ADB0FF622 /* CreateClipData.swift in Sources */,
-				5A2791FD849C783EDBBDBA3D7F6428CB /* CreateClipInfoData.swift in Sources */,
-				3231C5CF984A39C6876BA3E6AFFDF880 /* CreateStreamMarkerData.swift in Sources */,
-				9C953C78DBFF08AF85C419323010CBB3 /* DataParsingExtensions.swift in Sources */,
-				B29E16A494F6723C95A0CAF864E1C483 /* DateFormattingExtensions.swift in Sources */,
-				7A07998547B39293FA6FF0CDC55B4490 /* DictionaryExtensions.swift in Sources */,
-				DD73863A42C8ED445CB1F6B7CBDD2790 /* ExtensionAnalyticsReportData.swift in Sources */,
-				F2728F3ECDAF67A15698C37E3BCF593C /* ExtensionData.swift in Sources */,
-				7603800551B7D672997729CDAD694008 /* GameAnalyticsReportData.swift in Sources */,
-				497D0F591E928EF70BC7721E7479031A /* GameData.swift in Sources */,
-				0743C949BA7F4C7F5D2C24DA2CFA4F48 /* GetBitsLeaderboardData.swift in Sources */,
-				F9118F7FD1AE0FB5CE1CD06F8BD44475 /* GetBitsLeaderboardUserData.swift in Sources */,
-				8D886D7C853F00079EC9E24031A734E2 /* GetClipsData.swift in Sources */,
-				538167B4B86ABAA16CAC3045D5D28B9C /* GetExtensionAnalyticsData.swift in Sources */,
-				B88B180EDF71461227EE80E080408E7A /* GetGameAnalyticsData.swift in Sources */,
-				3444E54390645110C57B317125F37F87 /* GetGamesData.swift in Sources */,
-				EF1018760A1153ABE6BCC993ADD259AB /* GetStreamMarkersData.swift in Sources */,
-				5E54C32CE44610FF3DD20F1B87854E2A /* GetStreamsData.swift in Sources */,
-				17D30DCFE1DF513CB68E21DFE739A2A9 /* GetStreamsMetadataData.swift in Sources */,
-				F7A8C41F62A6AD99BA6C6FC622CF498F /* GetTopGamesData.swift in Sources */,
-				BE0091E2D5FCD031CEF025DF82EFFBF4 /* GetUserExtensionsData.swift in Sources */,
-				6897E354FDCDA1C1DFB5914CB28C2A43 /* GetUsersData.swift in Sources */,
-				3CCD1E9E527FD408AD68227B887218AE /* GetUsersFollowsData.swift in Sources */,
-				054BBDA800CD535DAE0D62A033B8D572 /* GetVideosData.swift in Sources */,
-				64FAF2B530E2FE84772B1AAE7DA28414 /* HearthstoneHeroMetadata.swift in Sources */,
-				3B2D4A849C48A509FA72C5B10B132554 /* HearthstoneMetadata.swift in Sources */,
-				B9D7BE15A63539A771A4ED2722A42629 /* HearthstonePlayerMetadata.swift in Sources */,
-				ACDD21F39E78CBBC5F4E05FE75BADF8D /* MarkedStreamData.swift in Sources */,
-				205A23B1ECA6699F1FDCC77B3E1E4684 /* MarkedVideoData.swift in Sources */,
-				A16DB1842C678C9AC6066AAA1A0198AC /* OverwatchHeroMetadata.swift in Sources */,
-				48DCB512E342B3198B4031801AC586AF /* OverwatchMetadata.swift in Sources */,
-				D07578D394B055ABCC62D82156BA6BCE /* OverwatchPlayerMetadata.swift in Sources */,
-				18025B1E8219ECDD01F146E3EE1AAEDA /* PaginationData.swift in Sources */,
-				7E0A74D98089CDD6912C7CE32CB79B52 /* PostedStreamMarkerData.swift in Sources */,
-				FD59B408A190F87D3EAEE6D105005ADB /* StreamData.swift in Sources */,
-				BF69DEAC541EE2682734BCF0A417B4A4 /* StreamMetadata.swift in Sources */,
-				DABA411DBA02945F39AAEF30D3FDD473 /* SwiftTwitch-dummy.m in Sources */,
-				80C6F9C05BD95669578D0BF1A5DCAEB8 /* Twitch.swift in Sources */,
-				DF24FDCF2489EB55BFFA922C22223F33 /* TwitchTokenManager.swift in Sources */,
-				20BA3AE1181ADCCC09B237327D73BE6B /* UnpostedStreamMarkerData.swift in Sources */,
-				4D96BA5FE66207149888EB47FE8A6B19 /* UpdateUserData.swift in Sources */,
-				A912BD7DBD3DB5064DAFBC1C3158C70C /* URLExtension.swift in Sources */,
-				BE388007FF334E2A072E594839DAF7ED /* URLRequestExtension.swift in Sources */,
-				DEC63C89F5ED6CA083EB6806C04A06C2 /* UserData.swift in Sources */,
-				5E823DD5E076E6B1974B9615D086A08C /* UserFollowData.swift in Sources */,
-				0152FB3F1AC670BA692C0FFD00915844 /* VideoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1000,11 +1051,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C545BDCF7600F0971817E8328A4B27A /* Sources */ = {
+		98021F1E2C906C86696027E99BAEE771 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC17002C2AD5A90B489F8017082D4979 /* Pods-TwitchExample-dummy.m in Sources */,
+				8AF40A3178F3F934E528024CF2F192DE /* Pods-TwitchExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D828C63DCB7BF3526292CC89682B01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0734C166FD801CF4C977B4FA2D37E2A /* ClipData.swift in Sources */,
+				D71F495A5CCFE99E35334B1A078CE391 /* CreateClipData.swift in Sources */,
+				95248A84FD952765B395E01490A1D647 /* CreateClipInfoData.swift in Sources */,
+				FD2BBDFEC906EB34F1AC5A7962D0A36D /* CreateStreamMarkerData.swift in Sources */,
+				7C79CEE1CF1894D899FCC24E5F882E84 /* DataParsingExtensions.swift in Sources */,
+				1A91DD09864E7966B783A3126704592D /* DateFormattingExtensions.swift in Sources */,
+				86B86FD02FA68B6575F3CB603401F59C /* DictionaryExtensions.swift in Sources */,
+				F9EF023B0FB942AB4E7F0AE49C34E9F9 /* ExtensionAnalyticsReportData.swift in Sources */,
+				B0F9F93DF5BA88756CA18964CB2BECD1 /* ExtensionData.swift in Sources */,
+				4CDAE04A951DFC07E02E0D79D4C4EBB6 /* GameAnalyticsReportData.swift in Sources */,
+				60D7F89E8C883370E728CA31489D0F88 /* GameData.swift in Sources */,
+				86D37882063342F33B40E46601432E84 /* GetBitsLeaderboardData.swift in Sources */,
+				C226F26B58DD932C9F87E207238FF9B6 /* GetBitsLeaderboardUserData.swift in Sources */,
+				AA9F8BE39E2A4460711991C1CBC21E96 /* GetClipsData.swift in Sources */,
+				29EBE2C4B0BBDF47E684173B5CAB200E /* GetExtensionAnalyticsData.swift in Sources */,
+				9F7CB9FA751287D2D154973D18E8F939 /* GetGameAnalyticsData.swift in Sources */,
+				C7BC561944A072DDFB0C48F33651D140 /* GetGamesData.swift in Sources */,
+				3327F641CAAFD9DF6FB57BD798254D63 /* GetStreamMarkersData.swift in Sources */,
+				D4B987FF43B18E70E9BB445A5D1D886D /* GetStreamsData.swift in Sources */,
+				5650AB6292F1FD140DB04266CB5BD80C /* GetStreamsMetadataData.swift in Sources */,
+				908A813CC4CE0AC6B8D907C5759834F3 /* GetTopGamesData.swift in Sources */,
+				B2F731B3468ADC1B7D5E686008461FC0 /* GetUserExtensionsData.swift in Sources */,
+				AB24751A14F565A846C2AC18BAF8C52E /* GetUsersData.swift in Sources */,
+				0200AE5FD454F1677F1366012D3EB97F /* GetUsersFollowsData.swift in Sources */,
+				2A8A32537B8124BA682C3C9A4B09C856 /* GetVideosData.swift in Sources */,
+				F3C726C8F02AC6BC4FF12C87E53214A1 /* HearthstoneHeroMetadata.swift in Sources */,
+				B8D392F7825A7FDBC49D12ECEEF63DFA /* HearthstoneMetadata.swift in Sources */,
+				922BB89D1E3CDCB35A2179A722D93EC8 /* HearthstonePlayerMetadata.swift in Sources */,
+				30487CEE92F3383900D2C0870C03E22F /* MarkedStreamData.swift in Sources */,
+				F97898C6F6AE6A55494FD74E634DC262 /* MarkedVideoData.swift in Sources */,
+				345057AA15EB339C154006286250D46E /* OverwatchHeroMetadata.swift in Sources */,
+				0BA8CFCF01087FE31E8F8B6B3509EB72 /* OverwatchMetadata.swift in Sources */,
+				F93A40030E447CD3EA4599C83427149E /* OverwatchPlayerMetadata.swift in Sources */,
+				D6ABB88FD99056207009B8AF24C9C08A /* PaginationData.swift in Sources */,
+				E569B189D4723AFC9E93E079F41A416B /* PostedStreamMarkerData.swift in Sources */,
+				7D3584F839BADD69A027EA490BE7FE72 /* StreamData.swift in Sources */,
+				C035E98EA9F7727EF6203E92A52F483A /* StreamMetadata.swift in Sources */,
+				ADE78311AB2AB386DB0110AD755B4C96 /* SwiftTwitch-dummy.m in Sources */,
+				E305A21D26C4005ED3F39B4CA8BE723C /* Twitch.swift in Sources */,
+				79856793149F3E5843DBC36D8D8F3A3F /* TwitchTokenManager.swift in Sources */,
+				F025DBD2A603CB15C09050E2E4CC76C1 /* UnpostedStreamMarkerData.swift in Sources */,
+				2D4D513D3639D2DE1C89C3E810843A77 /* UpdateUserData.swift in Sources */,
+				B8E13331D725B3A1276B358A322A25D3 /* URLExtension.swift in Sources */,
+				7BEF311CDE9CEF4056EA28C6BE311144 /* URLRequestExtension.swift in Sources */,
+				8BA8B149BC5919709F81E2D76D215796 /* UserData.swift in Sources */,
+				88DA586DB130A3F23E9C929F5D1A00B6 /* UserFollowData.swift in Sources */,
+				91B829CEFF1B94E5BE9216C2362816C0 /* VideoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1019,45 +1124,88 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E900C4D89EBE9C0BB8EE719ED64A7DC /* PBXTargetDependency */ = {
+		5197F6CB05444F54A5793A388EF465BF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NVActivityIndicatorView;
 			target = 2F56A7E4DFE218C0DAD320699DD11F5C /* NVActivityIndicatorView */;
-			targetProxy = BD2CEA6DD62D1EF22AAEB80550EED971 /* PBXContainerItemProxy */;
+			targetProxy = FBB5B44225D63388036964E393076FFD /* PBXContainerItemProxy */;
+		};
+		56B87ECD84C5D13AC26CD9D7F7228A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TwitchPlayer;
+			target = F323EA1EB78681BA6CFD80371D93E115 /* TwitchPlayer */;
+			targetProxy = A04EE1FFCB609DBF5A209A3D311B003F /* PBXContainerItemProxy */;
+		};
+		6E672747C0270491C844E9D78D43E4A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Marshal;
+			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
+			targetProxy = 07D19314BBF4BC7776834DB7FA34EB79 /* PBXContainerItemProxy */;
+		};
+		6F395F6CA39034BC31C736630BAA0533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Marshal;
+			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
+			targetProxy = 6557F41D17652DBF84CA0C1340E06D4E /* PBXContainerItemProxy */;
 		};
 		6FB2EF628292FF35B500384B8030B038 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TwitchExample";
-			target = 27C85A4AD4B95260F2F98E2843DA3BDD /* Pods-TwitchExample */;
+			target = FD90B0166AF1BFC89E4725D58423C4F4 /* Pods-TwitchExample */;
 			targetProxy = 031BF3623A1BE8099FC628E5B5B2C3A9 /* PBXContainerItemProxy */;
 		};
-		AD4BBE29103BE7B4B92CD34A8CBCD5BD /* PBXTargetDependency */ = {
+		D07311389996E96559088C97B81F4B30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftTwitch;
-			target = 8366F0081EB4BC09E5F7E0F946AA94D6 /* SwiftTwitch */;
-			targetProxy = ECE9715EC760FFFD6ABC9011FA1EB0BE /* PBXContainerItemProxy */;
-		};
-		BC2046315BBCED6CFBED2B65736497FA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Marshal;
-			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
-			targetProxy = 2CD539EC2932147B22643CF801A5FADC /* PBXContainerItemProxy */;
-		};
-		E2B28909F4230DC7A85BD374BCF16B92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Marshal;
-			target = FBE2BABDD2574C536D98AC5C29F59AAC /* Marshal */;
-			targetProxy = 5521EC9D0DCCF69EAD8B36E67C0F67AD /* PBXContainerItemProxy */;
+			target = 7930F2A0B8B1BFEBD47EFB14BBA444AF /* SwiftTwitch */;
+			targetProxy = DC190E91809DFFF16BE4B9577D6E4738 /* PBXContainerItemProxy */;
 		};
 		EA9765D0D1FED5F8C973D9767DF686CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TwitchExample";
-			target = 27C85A4AD4B95260F2F98E2843DA3BDD /* Pods-TwitchExample */;
+			target = FD90B0166AF1BFC89E4725D58423C4F4 /* Pods-TwitchExample */;
 			targetProxy = F78FBDDF604DD1EBC97BBFA42375334E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00737757989E4E63F92CC080E488F4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A6EDAE538A50124C58F10EC739DFA8 /* SwiftTwitch.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftTwitch/SwiftTwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftTwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch.modulemap";
+				PRODUCT_MODULE_NAME = SwiftTwitch;
+				PRODUCT_NAME = SwiftTwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		02844CAE05A262B448E12B638E3F594D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43EAD9B9F819CCEAC2ECA27B746FF14D /* Pods-TwitchExampleTests.debug.xcconfig */;
@@ -1096,9 +1244,46 @@
 			};
 			name = Debug;
 		};
+		0BDC87D15F5525D6C4A9CB5B6370F56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A459A8788B0491540C55D3824C716598 /* TwitchPlayer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TwitchPlayer/TwitchPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwitchPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TwitchPlayer/TwitchPlayer.modulemap";
+				PRODUCT_MODULE_NAME = TwitchPlayer;
+				PRODUCT_NAME = TwitchPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		18613B10EF0849A81C5E06D38E4F0681 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB3CF7BD7FE9573DEC780C46870A23A9 /* Marshal.xcconfig */;
+			baseConfigurationReference = BE685D11ED7FAF5016EB46CD89C612F1 /* Marshal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1133,84 +1318,7 @@
 			};
 			name = Release;
 		};
-		38CDE1384B7A37D8B4C8EE606C84B8B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B85575F478250CA8E9C642B54BF6C15 /* NVActivityIndicatorView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
-				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
-				PRODUCT_NAME = NVActivityIndicatorView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3A3C1D5D5E6FECB82F8A76A4A94ED21D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98FC8E9ABECFAC22393A877EFB3ECD11 /* Pods-TwitchExample.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TwitchExample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TwitchExample/Pods-TwitchExample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		67011234DF8BFC6A13E16D34E10F9D92 /* Debug */ = {
+		33F0A2F78629BBFF00C1C99629CF4AD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EC021F35541316F3D3AAC46A8E8C0ADC /* Pods-TwitchExample.debug.xcconfig */;
 			buildSettings = {
@@ -1250,9 +1358,46 @@
 			};
 			name = Debug;
 		};
-		6D7C1E57B6227C00325E041A2E3C683D /* Debug */ = {
+		38CDE1384B7A37D8B4C8EE606C84B8B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03CAA2A7483808FAE117E3A1C7F52FB /* SwiftTwitch.xcconfig */;
+			baseConfigurationReference = C54A8D43E222B820414E52D498CEF9B8 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5447B0C9504E3A3EAE535FC247930CEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A6EDAE538A50124C58F10EC739DFA8 /* SwiftTwitch.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1288,7 +1433,7 @@
 		};
 		8282889561C76932ADF487E2499BDB9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB3CF7BD7FE9573DEC780C46870A23A9 /* Marshal.xcconfig */;
+			baseConfigurationReference = BE685D11ED7FAF5016EB46CD89C612F1 /* Marshal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1457,9 +1602,9 @@
 			};
 			name = Release;
 		};
-		CB713CF898854113372A2DBA68F76676 /* Release */ = {
+		BED2C5DD8FA018CF2EA662464ACBF6E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C03CAA2A7483808FAE117E3A1C7F52FB /* SwiftTwitch.xcconfig */;
+			baseConfigurationReference = A459A8788B0491540C55D3824C716598 /* TwitchPlayer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1470,8 +1615,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftTwitch/SwiftTwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftTwitch/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TwitchPlayer/TwitchPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TwitchPlayer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1479,14 +1624,53 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftTwitch/SwiftTwitch.modulemap";
-				PRODUCT_MODULE_NAME = SwiftTwitch;
-				PRODUCT_NAME = SwiftTwitch;
+				MODULEMAP_FILE = "Target Support Files/TwitchPlayer/TwitchPlayer.modulemap";
+				PRODUCT_MODULE_NAME = TwitchPlayer;
+				PRODUCT_NAME = TwitchPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF54606CE481F372B93119B9A5354776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FC8E9ABECFAC22393A877EFB3ECD11 /* Pods-TwitchExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitchExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitchExample/Pods-TwitchExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1598,7 +1782,7 @@
 		};
 		E3833463590274FE591491121E1F1D63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B85575F478250CA8E9C642B54BF6C15 /* NVActivityIndicatorView.xcconfig */;
+			baseConfigurationReference = C54A8D43E222B820414E52D498CEF9B8 /* NVActivityIndicatorView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1662,20 +1846,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4B53577B9F634139DFC9F93A07077CCB /* Build configuration list for PBXNativeTarget "Pods-TwitchExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F0A2F78629BBFF00C1C99629CF4AD4 /* Debug */,
+				BF54606CE481F372B93119B9A5354776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5814B6AD4EBA597935DC3B0185A506E7 /* Build configuration list for PBXNativeTarget "Pods-TwitchExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02844CAE05A262B448E12B638E3F594D /* Debug */,
 				D530D7A7A2E9DAA7EFADB79119978DA9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7233125F76E3F0C93D981001F9FB64EC /* Build configuration list for PBXNativeTarget "Pods-TwitchExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				67011234DF8BFC6A13E16D34E10F9D92 /* Debug */,
-				3A3C1D5D5E6FECB82F8A76A4A94ED21D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1689,11 +1873,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCDB95CDF9D47B4252990E5CF884ABAC /* Build configuration list for PBXNativeTarget "SwiftTwitch" */ = {
+		D90DA0A7E6A0E066E42B9AE26A160AD2 /* Build configuration list for PBXNativeTarget "SwiftTwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D7C1E57B6227C00325E041A2E3C683D /* Debug */,
-				CB713CF898854113372A2DBA68F76676 /* Release */,
+				5447B0C9504E3A3EAE535FC247930CEE /* Debug */,
+				00737757989E4E63F92CC080E488F4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0C10CC2C562E723BD54F72B4FCA2BC /* Build configuration list for PBXNativeTarget "TwitchPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BED2C5DD8FA018CF2EA662464ACBF6E4 /* Debug */,
+				0BDC87D15F5525D6C4A9CB5B6370F56C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

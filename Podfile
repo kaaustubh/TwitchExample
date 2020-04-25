@@ -8,7 +8,7 @@ target 'TwitchExample' do
   # Pods for TwitchExample
   pod 'SwiftTwitch'
   pod 'NVActivityIndicatorView'
-
+  pod 'TwitchPlayer'
 
   target 'TwitchExampleTests' do
     inherit! :search_paths

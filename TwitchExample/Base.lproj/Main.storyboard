@@ -118,7 +118,7 @@
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="Wnl-5V-nXN" id="Vzq-y6-3Ti"/>
-                                    <outlet property="delegate" destination="Wnl-5V-nXN" id="AgV-iM-xj5"/>
+                                    <outlet property="delegate" destination="Wnl-5V-nXN" id="bno-Ew-iwM"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -127,11 +127,86 @@
                     <navigationItem key="navigationItem" id="tFj-dA-N7K"/>
                     <connections>
                         <outlet property="tableView" destination="paw-lp-prT" id="0n0-as-Gkh"/>
+                        <segue destination="U5v-Wp-vFU" kind="show" identifier="playvideo" id="HGk-Q6-Lp3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8j6-1b-YeT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-305" y="768"/>
+        </scene>
+        <!--Video Player-->
+        <scene sceneID="ruS-62-O14">
+            <objects>
+                <viewController title="Video Player" id="U5v-Wp-vFU" customClass="VideoPlayerController" customModule="TwitchExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aFX-dt-bBS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Er6-Ps-dMo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kb7-eg-hQ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b3X-c5-qUG" customClass="TwitchPlayer" customModule="TwitchPlayer">
+                                <rect key="frame" x="37.5" y="149" width="300" height="225"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="b3X-c5-qUG" secondAttribute="height" multiplier="4:3" id="RDY-yH-qLd"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration" allowsInlineMediaPlayback="YES">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showingChatPanel" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="playerThemeIsDark" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="allowsFullScreen" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="videoToLoad" value="356414012"/>
+                                </userDefinedRuntimeAttributes>
+                            </wkWebView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="2lO-cO-8f0">
+                                <rect key="frame" x="37.5" y="374" width="300" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjz-P8-BsY">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="40"/>
+                                        <color key="backgroundColor" red="0.87450980389999999" green="0.47058823529999999" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Next">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="nextButtonPress:" destination="U5v-Wp-vFU" eventType="touchUpInside" id="FAg-gq-hT7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="qKB-qC-68b"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.60392156860000001" green="0.4039215686" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="b3X-c5-qUG" firstAttribute="top" relation="greaterThanOrEqual" secondItem="aFX-dt-bBS" secondAttribute="bottom" constant="8" id="48t-oX-mae"/>
+                            <constraint firstItem="2lO-cO-8f0" firstAttribute="trailing" secondItem="b3X-c5-qUG" secondAttribute="trailing" id="Mko-8h-33G"/>
+                            <constraint firstItem="b3X-c5-qUG" firstAttribute="width" secondItem="kb7-eg-hQ8" secondAttribute="width" multiplier="0.8" priority="999" id="P1b-6G-gGd"/>
+                            <constraint firstItem="b3X-c5-qUG" firstAttribute="centerY" secondItem="kb7-eg-hQ8" secondAttribute="centerY" priority="999" constant="-50" id="SpR-9x-ZIj"/>
+                            <constraint firstItem="2lO-cO-8f0" firstAttribute="leading" secondItem="b3X-c5-qUG" secondAttribute="leading" id="ei1-6Q-btx"/>
+                            <constraint firstItem="b3X-c5-qUG" firstAttribute="height" relation="lessThanOrEqual" secondItem="kb7-eg-hQ8" secondAttribute="height" constant="-106" id="llD-Tq-PqO"/>
+                            <constraint firstItem="b3X-c5-qUG" firstAttribute="centerX" secondItem="kb7-eg-hQ8" secondAttribute="centerX" id="vKZ-lj-bDl"/>
+                            <constraint firstItem="2lO-cO-8f0" firstAttribute="top" secondItem="b3X-c5-qUG" secondAttribute="bottom" id="yre-q2-DIk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fhe-TU-sTP"/>
+                    <connections>
+                        <outlet property="twitchPlayer" destination="b3X-c5-qUG" id="ZzQ-16-lN5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m8m-Ed-MvM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="89"/>
         </scene>
     </scenes>
 </document>
