@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		325277622454404E00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775C2454404E00D09508 /* CustomError.swift */; };
-		325277632454404E00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775C2454404E00D09508 /* CustomError.swift */; };
-		325277642454404E00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775C2454404E00D09508 /* CustomError.swift */; };
-		325277652454404E00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775D2454404E00D09508 /* NetworkEngine.swift */; };
-		325277662454404E00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775D2454404E00D09508 /* NetworkEngine.swift */; };
-		325277672454404E00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775D2454404E00D09508 /* NetworkEngine.swift */; };
-		325277682454404E00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775E2454404E00D09508 /* Path.swift */; };
-		325277692454404E00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775E2454404E00D09508 /* Path.swift */; };
-		3252776A2454404E00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775E2454404E00D09508 /* Path.swift */; };
-		3252776B2454404E00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775F2454404E00D09508 /* TokenManager.swift */; };
-		3252776C2454404E00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775F2454404E00D09508 /* TokenManager.swift */; };
-		3252776D2454404E00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252775F2454404E00D09508 /* TokenManager.swift */; };
-		3252776E2454404E00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277602454404E00D09508 /* Reachability.swift */; };
-		3252776F2454404E00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277602454404E00D09508 /* Reachability.swift */; };
-		325277702454404E00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277602454404E00D09508 /* Reachability.swift */; };
-		325277712454404E00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277612454404E00D09508 /* Resource.swift */; };
-		325277722454404E00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277612454404E00D09508 /* Resource.swift */; };
-		325277732454404E00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277612454404E00D09508 /* Resource.swift */; };
+		3252777B245448EF00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527774245448EF00D09508 /* Reachability.swift */; };
+		3252777C245448EF00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527774245448EF00D09508 /* Reachability.swift */; };
+		3252777D245448EF00D09508 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527774245448EF00D09508 /* Reachability.swift */; };
+		3252777E245448EF00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527775245448EF00D09508 /* TokenManager.swift */; };
+		3252777F245448EF00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527775245448EF00D09508 /* TokenManager.swift */; };
+		32527780245448EF00D09508 /* TokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527775245448EF00D09508 /* TokenManager.swift */; };
+		32527781245448EF00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527776245448EF00D09508 /* CustomError.swift */; };
+		32527782245448EF00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527776245448EF00D09508 /* CustomError.swift */; };
+		32527783245448EF00D09508 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527776245448EF00D09508 /* CustomError.swift */; };
+		32527784245448EF00D09508 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527777245448EF00D09508 /* ImageDownloader.swift */; };
+		32527785245448EF00D09508 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527777245448EF00D09508 /* ImageDownloader.swift */; };
+		32527786245448EF00D09508 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527777245448EF00D09508 /* ImageDownloader.swift */; };
+		32527787245448EF00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527778245448EF00D09508 /* Resource.swift */; };
+		32527788245448EF00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527778245448EF00D09508 /* Resource.swift */; };
+		32527789245448EF00D09508 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527778245448EF00D09508 /* Resource.swift */; };
+		3252778A245448EF00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527779245448EF00D09508 /* NetworkEngine.swift */; };
+		3252778B245448EF00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527779245448EF00D09508 /* NetworkEngine.swift */; };
+		3252778C245448EF00D09508 /* NetworkEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32527779245448EF00D09508 /* NetworkEngine.swift */; };
+		3252778D245448EF00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252777A245448EF00D09508 /* Path.swift */; };
+		3252778E245448EF00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252777A245448EF00D09508 /* Path.swift */; };
+		3252778F245448EF00D09508 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252777A245448EF00D09508 /* Path.swift */; };
 		32BF59D32454303E00A5DD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D22454303E00A5DD65 /* AppDelegate.swift */; };
 		32BF59D52454303E00A5DD65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D42454303E00A5DD65 /* SceneDelegate.swift */; };
 		32BF59D72454303E00A5DD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D62454303E00A5DD65 /* ViewController.swift */; };
@@ -53,12 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3252775C2454404E00D09508 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomError.swift; path = TwitchExample/Networking_/CustomError.swift; sourceTree = SOURCE_ROOT; };
-		3252775D2454404E00D09508 /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkEngine.swift; path = TwitchExample/Networking_/NetworkEngine.swift; sourceTree = SOURCE_ROOT; };
-		3252775E2454404E00D09508 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Path.swift; path = TwitchExample/Networking_/Path.swift; sourceTree = SOURCE_ROOT; };
-		3252775F2454404E00D09508 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TokenManager.swift; path = TwitchExample/Networking_/TokenManager.swift; sourceTree = SOURCE_ROOT; };
-		325277602454404E00D09508 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = TwitchExample/Networking_/Reachability.swift; sourceTree = SOURCE_ROOT; };
-		325277612454404E00D09508 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = TwitchExample/Networking_/Resource.swift; sourceTree = SOURCE_ROOT; };
+		32527774245448EF00D09508 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		32527775245448EF00D09508 /* TokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenManager.swift; sourceTree = "<group>"; };
+		32527776245448EF00D09508 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		32527777245448EF00D09508 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		32527778245448EF00D09508 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		32527779245448EF00D09508 /* NetworkEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEngine.swift; sourceTree = "<group>"; };
+		3252777A245448EF00D09508 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
 		32BF59CF2454303E00A5DD65 /* TwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BF59D22454303E00A5DD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BF59D42454303E00A5DD65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,12 +107,13 @@
 		3252775B2454402200D09508 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				3252775C2454404E00D09508 /* CustomError.swift */,
-				3252775D2454404E00D09508 /* NetworkEngine.swift */,
-				3252775E2454404E00D09508 /* Path.swift */,
-				325277602454404E00D09508 /* Reachability.swift */,
-				325277612454404E00D09508 /* Resource.swift */,
-				3252775F2454404E00D09508 /* TokenManager.swift */,
+				32527776245448EF00D09508 /* CustomError.swift */,
+				32527777245448EF00D09508 /* ImageDownloader.swift */,
+				32527779245448EF00D09508 /* NetworkEngine.swift */,
+				3252777A245448EF00D09508 /* Path.swift */,
+				32527774245448EF00D09508 /* Reachability.swift */,
+				32527778245448EF00D09508 /* Resource.swift */,
+				32527775245448EF00D09508 /* TokenManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -297,15 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				325277712454404E00D09508 /* Resource.swift in Sources */,
 				32BF59D72454303E00A5DD65 /* ViewController.swift in Sources */,
-				325277652454404E00D09508 /* NetworkEngine.swift in Sources */,
-				325277622454404E00D09508 /* CustomError.swift in Sources */,
+				32527787245448EF00D09508 /* Resource.swift in Sources */,
 				32BF59D32454303E00A5DD65 /* AppDelegate.swift in Sources */,
-				325277682454404E00D09508 /* Path.swift in Sources */,
+				32527784245448EF00D09508 /* ImageDownloader.swift in Sources */,
+				3252777E245448EF00D09508 /* TokenManager.swift in Sources */,
+				3252778A245448EF00D09508 /* NetworkEngine.swift in Sources */,
+				3252777B245448EF00D09508 /* Reachability.swift in Sources */,
 				32BF59D52454303E00A5DD65 /* SceneDelegate.swift in Sources */,
-				3252776E2454404E00D09508 /* Reachability.swift in Sources */,
-				3252776B2454404E00D09508 /* TokenManager.swift in Sources */,
+				3252778D245448EF00D09508 /* Path.swift in Sources */,
+				32527781245448EF00D09508 /* CustomError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,13 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3252777C245448EF00D09508 /* Reachability.swift in Sources */,
+				32527785245448EF00D09508 /* ImageDownloader.swift in Sources */,
+				3252778E245448EF00D09508 /* Path.swift in Sources */,
+				3252778B245448EF00D09508 /* NetworkEngine.swift in Sources */,
+				32527782245448EF00D09508 /* CustomError.swift in Sources */,
+				32527788245448EF00D09508 /* Resource.swift in Sources */,
+				3252777F245448EF00D09508 /* TokenManager.swift in Sources */,
 				32BF59EA2454304100A5DD65 /* TwitchExampleTests.swift in Sources */,
-				325277632454404E00D09508 /* CustomError.swift in Sources */,
-				3252776F2454404E00D09508 /* Reachability.swift in Sources */,
-				3252776C2454404E00D09508 /* TokenManager.swift in Sources */,
-				325277692454404E00D09508 /* Path.swift in Sources */,
-				325277662454404E00D09508 /* NetworkEngine.swift in Sources */,
-				325277722454404E00D09508 /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,13 +334,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3252777D245448EF00D09508 /* Reachability.swift in Sources */,
+				32527786245448EF00D09508 /* ImageDownloader.swift in Sources */,
+				3252778F245448EF00D09508 /* Path.swift in Sources */,
+				3252778C245448EF00D09508 /* NetworkEngine.swift in Sources */,
+				32527783245448EF00D09508 /* CustomError.swift in Sources */,
+				32527789245448EF00D09508 /* Resource.swift in Sources */,
+				32527780245448EF00D09508 /* TokenManager.swift in Sources */,
 				32BF59F52454304100A5DD65 /* TwitchExampleUITests.swift in Sources */,
-				325277642454404E00D09508 /* CustomError.swift in Sources */,
-				325277702454404E00D09508 /* Reachability.swift in Sources */,
-				3252776D2454404E00D09508 /* TokenManager.swift in Sources */,
-				3252776A2454404E00D09508 /* Path.swift in Sources */,
-				325277672454404E00D09508 /* NetworkEngine.swift in Sources */,
-				325277732454404E00D09508 /* Resource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
