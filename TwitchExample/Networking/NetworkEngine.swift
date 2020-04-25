@@ -28,7 +28,9 @@ final class NetworkEngine {
     
     func load(path: String, method: RequestMethod, params: JSON, completion: @escaping (Any?, CustomError?) -> ()) -> URLSessionDataTask? {
         if !Reachability.isConnectedToNetwork() {
-            completion(nil, CustomError(code: 4, type: "", message: "Not connected to internet"))
+            DispatchQueue.main.async {
+                completion(nil, CustomError(code: 4, type: "", message: "Not connected to internet"))
+            }
             return nil
         }
         

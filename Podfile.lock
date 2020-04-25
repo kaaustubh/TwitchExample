@@ -1,0 +1,26 @@
+PODS:
+  - Marshal (1.2.7)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - SwiftTwitch (0.1.0):
+    - Marshal (~> 1.2.7)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView
+  - SwiftTwitch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Marshal
+    - NVActivityIndicatorView
+    - SwiftTwitch
+
+SPEC CHECKSUMS:
+  Marshal: ef480864a6af10a63f67be7e55bb5d8fe67a16d9
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  SwiftTwitch: 40957abccac5d6d40d8e047224178364ebbaf20c
+
+PODFILE CHECKSUM: ef9e34739254ac3c02ee1be50a802803f233b3eb
+
+COCOAPODS: 1.5.3
