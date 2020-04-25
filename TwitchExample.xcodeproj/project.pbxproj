@@ -32,6 +32,7 @@
 		3252779124544FC100D09508 /* TwitchVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3252779024544FC100D09508 /* TwitchVideoTableViewCell.swift */; };
 		32527793245457CB00D09508 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 32527792245457CB00D09508 /* Podfile */; };
 		325277952454679700D09508 /* VideoPlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325277942454679700D09508 /* VideoPlayerController.swift */; };
+		325277972454970C00D09508 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 325277962454970C00D09508 /* README.md */; };
 		32BF59D32454303E00A5DD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D22454303E00A5DD65 /* AppDelegate.swift */; };
 		32BF59D52454303E00A5DD65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D42454303E00A5DD65 /* SceneDelegate.swift */; };
 		32BF59D72454303E00A5DD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF59D62454303E00A5DD65 /* ViewController.swift */; };
@@ -74,6 +75,7 @@
 		3252779024544FC100D09508 /* TwitchVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitchVideoTableViewCell.swift; sourceTree = "<group>"; };
 		32527792245457CB00D09508 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		325277942454679700D09508 /* VideoPlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerController.swift; sourceTree = "<group>"; };
+		325277962454970C00D09508 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		32BF59CF2454303E00A5DD65 /* TwitchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BF59D22454303E00A5DD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BF59D42454303E00A5DD65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		32BF59D12454303E00A5DD65 /* TwitchExample */ = {
 			isa = PBXGroup;
 			children = (
+				325277962454970C00D09508 /* README.md */,
 				32527792245457CB00D09508 /* Podfile */,
 				3252779024544FC100D09508 /* TwitchVideoTableViewCell.swift */,
 				3252775B2454402200D09508 /* Networking */,
@@ -330,6 +333,7 @@
 			files = (
 				32BF59DF2454304100A5DD65 /* LaunchScreen.storyboard in Resources */,
 				32BF59DC2454304100A5DD65 /* Assets.xcassets in Resources */,
+				325277972454970C00D09508 /* README.md in Resources */,
 				32527793245457CB00D09508 /* Podfile in Resources */,
 				32BF59DA2454303E00A5DD65 /* Main.storyboard in Resources */,
 			);
